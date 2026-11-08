@@ -295,9 +295,9 @@
       "id": "facebook-ad",
       "platform": "Facebook",
       "usage": "Feed Ad",
-      "width": 1080,
-      "height": 1080,
-      "aspect": "1:1",
+      "width": 1440,
+      "height": 1800,
+      "aspect": "4:5",
       "tool": "https://pixohub.com/resize/facebook-ad"
     },
     {

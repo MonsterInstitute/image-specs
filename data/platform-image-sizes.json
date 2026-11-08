@@ -1702,12 +1702,12 @@
         }
       ],
       "pixohub_preset": {
-        "width": 1080,
-        "height": 1080,
-        "aspect": "1:1",
-        "matches_official": false
+        "width": 1440,
+        "height": 1800,
+        "aspect": "4:5",
+        "matches_official": true
       },
-      "notes": "pixohub 1080x1080 1:1; Meta now recommends 4:5 at 1440x1800 for Facebook Feed image ads.",
+      "notes": null,
       "tool": "https://pixohub.com/resize/facebook-ad"
     },
     {
