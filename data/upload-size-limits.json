@@ -1,0 +1,1251 @@
+{
+  "updated": "2026-11-08",
+  "count": 83,
+  "items": [
+    {
+      "organization": "Google (Gmail)",
+      "what": "Total attachment size when sending from a personal Gmail account",
+      "kind": "email",
+      "min_kb": null,
+      "max_kb": 25600,
+      "other_requirements": "Stated as 25 MB; for Workspace accounts the admin sets the limit",
+      "source": {
+        "name": "Gmail Help: Attachment size limits",
+        "url": "https://support.google.com/mail/answer/6584",
+        "quote": "For personal Gmail accounts, the limit is 25 MB.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Yahoo (Yahoo Mail)",
+      "what": "Total size of all attachments in one message (incoming and outgoing)",
+      "kind": "email",
+      "min_kb": null,
+      "max_kb": 25600,
+      "other_requirements": "Stated as 25MB total per message",
+      "source": {
+        "name": "Yahoo Help: Message size limits in Yahoo Mail (SLN5673)",
+        "url": "https://help.yahoo.com/kb/SLN5673.html",
+        "quote": "The sum of all attached files in a single message, both for incoming and outgoing email, must not exceed 25MB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Microsoft (Outlook.com)",
+      "what": "Total email size including attachments in Outlook.com",
+      "kind": "email",
+      "min_kb": null,
+      "max_kb": 25600,
+      "other_requirements": "Stated as 25 MB including text and attachments. Note: a separate Microsoft article ('Reduce attachment size...') still says 20 MB for internet accounts such as Outlook.com and 10 MB default for Exchange",
+      "source": {
+        "name": "Microsoft Support: Unable to attach files in Outlook.com",
+        "url": "https://support.microsoft.com/en-US/Support/known-issues/unable-to-attach-files-in-outlook-com",
+        "quote": "The size limit for an email in Outlook.com is 25 MB.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Apple (iCloud Mail)",
+      "what": "Size of incoming and outgoing iCloud Mail messages",
+      "kind": "email",
+      "min_kb": null,
+      "max_kb": 20480,
+      "other_requirements": "Stated as 20MB; up to 5GB with Mail Drop turned on",
+      "source": {
+        "name": "Apple Support: Mailbox size and message sending limits in iCloud",
+        "url": "https://support.apple.com/en-us/102198",
+        "quote": "The size of incoming and outgoing messages (20MB, up to 5GB with Mail Drop turned on)",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Proton (Proton Mail)",
+      "what": "Total attachment size for outgoing Proton Mail emails",
+      "kind": "email",
+      "min_kb": null,
+      "max_kb": 25600,
+      "other_requirements": "25 MB outgoing, 50 MB incoming, up to 100 files",
+      "source": {
+        "name": "Proton Support: Attachment and email size limits",
+        "url": "https://proton.me/support/attaching-multiple-documents-to-a-message",
+        "quote": "The total size limit of your attachments is 50 MB for incoming emails, and 25 MB for outgoing emails.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "GitHub",
+      "what": "Personal profile picture (avatar)",
+      "kind": "community-avatar",
+      "min_kb": null,
+      "max_kb": 1024,
+      "other_requirements": "PNG, JPG or GIF; less than 1 MB; smaller than 3000 × 3000 px; about 500 × 500 px recommended",
+      "source": {
+        "name": "GitHub Docs: Profile reference",
+        "url": "https://docs.github.com/en/account-and-profile/reference/profile-reference",
+        "quote": "Your profile picture should be a PNG, JPG, or GIF file, and it must be less than 1 MB in size and smaller than 3000 by 3000 pixels.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-1mb"
+    },
+    {
+      "organization": "GitHub",
+      "what": "Images and GIFs attached to issues, pull requests and comments",
+      "kind": "community-avatar",
+      "min_kb": null,
+      "max_kb": 10240,
+      "other_requirements": "Stated as 10MB for images and gifs; 25MB for other files",
+      "source": {
+        "name": "GitHub Docs: Attaching files",
+        "url": "https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files",
+        "quote": "10MB for images and gifs",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Gravatar (Automattic)",
+      "what": "Avatar image upload",
+      "kind": "community-avatar",
+      "min_kb": null,
+      "max_kb": 10240,
+      "other_requirements": "JPEG, PNG or HEIC; stated as smaller than 10MB (an older Gravatar 'Photos' help page says 5MB)",
+      "source": {
+        "name": "Gravatar Support: Avatars",
+        "url": "https://support.gravatar.com/avatars/",
+        "quote": "Your image should be smaller than 10MB.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "HM Passport Office (UK)",
+      "what": "Digital photo for an online UK passport application",
+      "kind": "visa-passport",
+      "min_kb": 50,
+      "max_kb": 10240,
+      "other_requirements": "At least 600 px wide and 750 px tall; colour; taken in the last month; do not crop. Photo-code help page adds: JPEG, ideal size 3MB",
+      "source": {
+        "name": "GOV.UK: Get a passport photo – Digital photos",
+        "url": "https://www.gov.uk/photos-for-passports",
+        "quote": "at least 50KB and no more than 10MB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "HM Passport Office (UK)",
+      "what": "Digital photo supplied with a photo code (photo booth/shop) for UK passport online",
+      "kind": "visa-passport",
+      "min_kb": 50,
+      "max_kb": 10240,
+      "other_requirements": "JPEG; ideal image size 3MB",
+      "source": {
+        "name": "HM Passport Office: Photo code for digital passport photos",
+        "url": "https://www.passport.service.gov.uk/help/photo-codes",
+        "quote": "be a JPEG between 50KB and 10MB - the ideal image size is 3MB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "UK Visas and Immigration (Home Office)",
+      "what": "Photo of your face uploaded for a UK visa or immigration permission application",
+      "kind": "visa-passport",
+      "min_kb": 50,
+      "max_kb": 6144,
+      "other_requirements": "jpg or jpeg; at least 600 px wide and 750 px tall",
+      "source": {
+        "name": "GOV.UK: Take a photo of your face for a visa application or permission",
+        "url": "https://www.gov.uk/guidance/how-to-take-a-photo-for-a-visa-application-or-permission",
+        "quote": "at least 50KB and no more than 6MB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Institute of Banking Personnel Selection (IBPS, India)",
+      "what": "Photograph for IBPS CRP PO/MT-XVI online application",
+      "kind": "government-exam",
+      "min_kb": 20,
+      "max_kb": 50,
+      "other_requirements": "4.5 cm × 3.5 cm; 200 × 230 px preferred; recent passport-style colour photo on light background; separate live photo capture also required. Per-recruitment; may change",
+      "source": {
+        "name": "IBPS CRP PO/MT-XVI detailed notification (30.06.2026)",
+        "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "quote": "Dimensions 200 x 230 pixels (preferred). Size of file should be between 20kb–50 kb.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-50kb"
+    },
+    {
+      "organization": "Institute of Banking Personnel Selection (IBPS, India)",
+      "what": "Signature for IBPS CRP PO/MT-XVI online application",
+      "kind": "government-exam",
+      "min_kb": 10,
+      "max_kb": 20,
+      "other_requirements": "Black ink on white paper; 140 × 60 px preferred; not in capital letters. Per-recruitment; may change",
+      "source": {
+        "name": "IBPS CRP PO/MT-XVI detailed notification (30.06.2026)",
+        "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "quote": "Dimensions 140 x 60 pixels (preferred). Size of file should be between 10kb – 20kb.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-20kb"
+    },
+    {
+      "organization": "Institute of Banking Personnel Selection (IBPS, India)",
+      "what": "Left thumb impression for IBPS CRP PO/MT-XVI online application",
+      "kind": "government-exam",
+      "min_kb": 20,
+      "max_kb": 50,
+      "other_requirements": "jpg/jpeg; 240 × 240 px at 200 DPI (3 cm × 3 cm); black or blue ink on white paper",
+      "source": {
+        "name": "IBPS CRP PO/MT-XVI detailed notification (30.06.2026)",
+        "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "quote": "File Size: 20 KB – 50 KB.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-50kb"
+    },
+    {
+      "organization": "Institute of Banking Personnel Selection (IBPS, India)",
+      "what": "Hand-written declaration image for IBPS CRP PO/MT-XVI online application",
+      "kind": "government-exam",
+      "min_kb": 50,
+      "max_kb": 100,
+      "other_requirements": "jpg/jpeg; 800 × 400 px at 200 DPI (10 cm × 5 cm); black ink, English, not in capital letters",
+      "source": {
+        "name": "IBPS CRP PO/MT-XVI detailed notification (30.06.2026)",
+        "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "quote": "File Size: 50 KB – 100 KB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-100kb"
+    },
+    {
+      "organization": "Institute of Banking Personnel Selection (IBPS, India)",
+      "what": "10th-standard certificate scan for IBPS CRP PO/MT-XVI online application",
+      "kind": "government-exam",
+      "min_kb": null,
+      "max_kb": 500,
+      "other_requirements": "PDF (not an image), A4 page size",
+      "source": {
+        "name": "IBPS CRP PO/MT-XVI detailed notification (30.06.2026)",
+        "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "quote": "Size of the file should not be exceeding 500 KB.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-500kb"
+    },
+    {
+      "organization": "Staff Selection Commission (India)",
+      "what": "Scanned signature for SSC CGL 2026 online application",
+      "kind": "government-exam",
+      "min_kb": 10,
+      "max_kb": 20,
+      "other_requirements": "JPEG/JPG; about 6.0 cm wide × 2.0 cm high. (The photograph is captured live through the app/portal, so no photo KB limit is stated.) Per-recruitment; may change",
+      "source": {
+        "name": "SSC Combined Graduate Level Examination 2026 notice (ssc.gov.in, 21-05-2026)",
+        "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2026.pdf",
+        "quote": "Candidates are required to upload the scanned signature in JPEG/JPG format (10 to 20 KB). Image dimension of the signature should be about 6.0 cm (width) x 2.0 cm (height).",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-20kb"
+    },
+    {
+      "organization": "State Bank of India",
+      "what": "Photograph for SBI Junior Associates (Customer Support & Sales) 2026 online application",
+      "kind": "government-exam",
+      "min_kb": 20,
+      "max_kb": 50,
+      "other_requirements": "4.5 cm × 3.5 cm; 200 × 230 px preferred; recent passport-style colour photo; live photo capture also required. Advertisement CRPD/CR/2026-27/17; per-recruitment",
+      "source": {
+        "name": "SBI Junior Associates 2026 detailed advertisement CRPD/CR/2026-27/17 (sbi.bank.in)",
+        "url": "https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf",
+        "quote": "Dimensions 200 x 230 pixels (preferred) • Size of file should be between 20 kb–50 kb",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-50kb"
+    },
+    {
+      "organization": "State Bank of India",
+      "what": "Signature for SBI Junior Associates 2026 online application",
+      "kind": "government-exam",
+      "min_kb": 10,
+      "max_kb": 20,
+      "other_requirements": "Black ink on white paper; 140 × 60 px preferred. Advertisement CRPD/CR/2026-27/17",
+      "source": {
+        "name": "SBI Junior Associates 2026 detailed advertisement CRPD/CR/2026-27/17 (sbi.bank.in)",
+        "url": "https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf",
+        "quote": "Dimensions 140 x 60 pixels (preferred) • Size of file should be between 10 kb – 20 kb",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-20kb"
+    },
+    {
+      "organization": "State Bank of India",
+      "what": "Hand-written declaration image for SBI Junior Associates 2026 online application",
+      "kind": "government-exam",
+      "min_kb": 50,
+      "max_kb": 100,
+      "other_requirements": "jpg/jpeg; 800 × 400 px at 200 DPI (10 cm × 5 cm); English, black ink",
+      "source": {
+        "name": "SBI Junior Associates 2026 detailed advertisement CRPD/CR/2026-27/17 (sbi.bank.in)",
+        "url": "https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf",
+        "quote": "File size: 50 kb- 100 kb",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-100kb"
+    },
+    {
+      "organization": "National Testing Agency (India)",
+      "what": "Passport-size photograph for NEET (UG) 2026 online application",
+      "kind": "government-exam",
+      "min_kb": 10,
+      "max_kb": 200,
+      "other_requirements": "JPG/JPEG; colour or black & white; 80% face visible including ears; white background; no mask",
+      "source": {
+        "name": "NTA Information Bulletin NEET (UG)-2026 (neet.nta.nic.in)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+        "quote": "Photograph should be in JPG/JPEG format (clearly legible) between 10 kb to 200 kb.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-200kb"
+    },
+    {
+      "organization": "National Testing Agency (India)",
+      "what": "Signature for NEET (UG) 2026 online application",
+      "kind": "government-exam",
+      "min_kb": 10,
+      "max_kb": 100,
+      "other_requirements": "JPG/JPEG",
+      "source": {
+        "name": "NTA Information Bulletin NEET (UG)-2026 (neet.nta.nic.in)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+        "quote": "Signature file should be in JPG/JPEG format between 10 kb to 100 kb",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-100kb"
+    },
+    {
+      "organization": "National Testing Agency (India)",
+      "what": "Scanned Class X certificate / category certificate for NEET (UG) 2026",
+      "kind": "government-exam",
+      "min_kb": 50,
+      "max_kb": 300,
+      "other_requirements": "PDF format (not an image)",
+      "source": {
+        "name": "NTA Information Bulletin NEET (UG)-2026 (neet.nta.nic.in)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+        "quote": "Scanned copy of Class- X or Equivalent Certificate should be in pdf format between 50 kb to 300 kb.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-300kb"
+    },
+    {
+      "organization": "Protean eGov Technologies (PAN, for Income Tax Department of India)",
+      "what": "Scanned photograph for online PAN application (Form 49A) submitted via e-Sign/DSC",
+      "kind": "government-exam",
+      "min_kb": null,
+      "max_kb": 20,
+      "other_requirements": "200 DPI, colour, JPEG, 3.5 × 2.5 cm. Note: a Protean article (proteantech.in/articles/pan-card-documents-scanning-uploading-method/) gives a looser 'Maximum 50 KB' and 5 × 2.5 cm; the form guideline page is quoted here",
+      "source": {
+        "name": "Protean: Guidelines for filling PAN New Application (tin.tin.proteantech.in)",
+        "url": "https://tin.tin.proteantech.in/pan/form49Adsc.html",
+        "quote": "Resolution (in DPI) 200 DPI ... File type JPEG ... Size Max. 20 KB ... Dimension 3.5X2.5 cms.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-20kb"
+    },
+    {
+      "organization": "Protean eGov Technologies (PAN, for Income Tax Department of India)",
+      "what": "Scanned signature for online PAN application (Form 49A) submitted via e-Sign/DSC",
+      "kind": "government-exam",
+      "min_kb": null,
+      "max_kb": 10,
+      "other_requirements": "200 DPI, colour, JPEG, 2 × 4.5 cm. A Protean article states 'Maximum 50 KB' instead; the form guideline page is quoted here",
+      "source": {
+        "name": "Protean: Guidelines for filling PAN New Application (tin.tin.proteantech.in)",
+        "url": "https://tin.tin.proteantech.in/pan/form49Adsc.html",
+        "quote": "Signature ... 200 DPI ... JPEG ... Max. 10 KB ... 2X4.5 cms",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-10kb"
+    },
+    {
+      "organization": "Protean eGov Technologies (PAN, for Income Tax Department of India)",
+      "what": "Supporting documents (ID/address/DOB proof) for online PAN application",
+      "kind": "government-exam",
+      "min_kb": null,
+      "max_kb": 300,
+      "other_requirements": "200 DPI, black & white, PDF/A or JPEG; limit is per page",
+      "source": {
+        "name": "Protean: Guidelines for filling PAN New Application (tin.tin.proteantech.in)",
+        "url": "https://tin.tin.proteantech.in/pan/form49Adsc.html",
+        "quote": "Supporting documents ... Black & White ... PDF/A or JPEG ... Max. 300KB/per page",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-300kb"
+    },
+    {
+      "organization": "Immigration, Refugees and Citizenship Canada (IRCC)",
+      "what": "Per-file upload limit for IRCC online accounts",
+      "kind": "visa-passport",
+      "min_kb": null,
+      "max_kb": 4096,
+      "other_requirements": "4 MB per file for IRCC secure account, online citizenship application, Asylum portal and Permanent Residence Portal; 5 MB for IRCC Portal (old and new versions)",
+      "source": {
+        "name": "IRCC Help Centre: Is there a file size limit for documents I upload to my account?",
+        "url": "https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1123&top=23",
+        "quote": "Online account type File size limit (per file) IRCC secure account 4 MB IRCC Portal 5 MB Online citizenship application 4 MB Asylum portal 4 MB Permanent Residence Portal 4 MB IRCC Portal – New version 5 MB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-3mb"
+    },
+    {
+      "organization": "Immigration, Refugees and Citizenship Canada (IRCC)",
+      "what": "Digital photo for an online permanent resident (PR) card application",
+      "kind": "visa-passport",
+      "min_kb": null,
+      "max_kb": 4096,
+      "other_requirements": "JPEG/JPG; between 715 × 1000 and 2000 × 2800 pixels (page dated 2026-03-26)",
+      "source": {
+        "name": "Canada.ca: Permanent resident photos",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/permanent-residents/card/photos.html",
+        "quote": "File size: 4 MB or less",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-3mb"
+    },
+    {
+      "organization": "Immigration, Refugees and Citizenship Canada (Passport Program)",
+      "what": "Digital passport photo for online Canadian passport renewal",
+      "kind": "visa-passport",
+      "min_kb": 200,
+      "max_kb": 5120,
+      "other_requirements": "JPEG/JPG; at least 1,800 px high × 1,200 px wide, no larger than 4,500 × 3,000 px; from a commercial photographer (page dated 2026-09-23)",
+      "source": {
+        "name": "Canada.ca: Passport photo requirements",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/photos.html",
+        "quote": "be between 200 KB and 5 MB in size.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Department of Home Affairs (Australia)",
+      "what": "Applicant photograph attached to an online visa application in ImmiAccount",
+      "kind": "visa-passport",
+      "min_kb": 70,
+      "max_kb": 3584,
+      "other_requirements": "Digital JPEG between 70Kb and 3.5Mb; preferred 1200 × 1600 px; no more than 6 months old; not a scan or photo of a photo",
+      "source": {
+        "name": "Home Affairs ImmiAccount help text: Photograph",
+        "url": "https://immi.homeaffairs.gov.au/help-text/evidence/Pages/et-h0369.aspx",
+        "quote": "in digital JPEG format between 70Kb and 3.5Mb, the preferred resolution is 1200x1600 pixels",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-3mb"
+    },
+    {
+      "organization": "Department of Home Affairs (Australia)",
+      "what": "Documents attached to an online visa, sponsorship or nomination application in ImmiAccount",
+      "kind": "visa-passport",
+      "min_kb": null,
+      "max_kb": 5120,
+      "other_requirements": "Extensions bmp, dcm, doc, docx, dot, gif, jpg, pdf, png, ppt, pptx, rtf, txt, xls, xlsx; no compressed or encrypted PDF files",
+      "source": {
+        "name": "Home Affairs ImmiAccount help text: Attach documents",
+        "url": "https://immi.homeaffairs.gov.au/help-text/eplus/Pages/elp-h1470.aspx",
+        "quote": "You can attach files up to 5MB in size with the following extensions: bmp, dcm, doc, docx, dot, gif, jpg, pdf, png, ppt, pptx, rtf, txt, xls, xlsx.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Department of Home Affairs (Australia)",
+      "what": "Document images attached to an online Australian citizenship application",
+      "kind": "visa-passport",
+      "min_kb": null,
+      "max_kb": 500,
+      "other_requirements": "jpg preferred; scan originals, not photocopies",
+      "source": {
+        "name": "Home Affairs ImmiAccount help text: Attach documents",
+        "url": "https://immi.homeaffairs.gov.au/help-text/eplus/Pages/elp-h1470.aspx",
+        "quote": "The Department prefers images to be loaded in jpg format. Please limit the size of the file to 500Kb.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-500kb"
+    },
+    {
+      "organization": "Department of Home Affairs (Australia)",
+      "what": "Facial image for an online ImmiCard application",
+      "kind": "visa-passport",
+      "min_kb": null,
+      "max_kb": 500,
+      "other_requirements": "JPEG, 1200 × 1600 px vertical, fine compression, neutral 18% grey background; all attachments together max 10MB",
+      "source": {
+        "name": "Home Affairs: Application for ImmiCard help",
+        "url": "https://immi.homeaffairs.gov.au/help-support/departmental-forms/online-forms/immicard-help",
+        "quote": "File size must be no larger than 500KB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-500kb"
+    },
+    {
+      "organization": "National Testing Agency (India)",
+      "what": "Scanned passport-size photograph for JEE (Main) 2027 online application",
+      "kind": "government-exam",
+      "min_kb": 10,
+      "max_kb": 200,
+      "other_requirements": "JPG/JPEG; colour, 80% face incl. ears, no mask, white background; a live photo is also captured",
+      "source": {
+        "name": "NTA Information Bulletin – JEE (Main) 2027 (jeemain.nta.nic.in)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610241890224107.pdf",
+        "quote": "Size of the photograph should be between 10 kB to 200 kB and in JPG/JPEG format (clearly legible).",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-200kb"
+    },
+    {
+      "organization": "National Testing Agency (India)",
+      "what": "Signature for JEE (Main) 2027 online application",
+      "kind": "government-exam",
+      "min_kb": 10,
+      "max_kb": 100,
+      "other_requirements": "JPG/JPEG",
+      "source": {
+        "name": "NTA Information Bulletin – JEE (Main) 2027 (jeemain.nta.nic.in)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610241890224107.pdf",
+        "quote": "Signature file should be JPG/JPEG format (clearly legible) between 10 kB to 100 kB.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-100kb"
+    },
+    {
+      "organization": "National Testing Agency (India)",
+      "what": "Signature for CUET (UG) 2026 online application",
+      "kind": "government-exam",
+      "min_kb": 10,
+      "max_kb": 50,
+      "other_requirements": "JPG/JPEG. Photograph for the same exam: 10–200 kb JPG/JPEG",
+      "source": {
+        "name": "NTA CUET (UG) 2026 Information Bulletin (cuet.nta.nic.in)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf",
+        "quote": "Signature file should be JPG/JPEG format (clearly legible) between 10 kb to 50 kb.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-50kb"
+    },
+    {
+      "organization": "Discord",
+      "what": "File upload limit for non-Nitro users",
+      "kind": "community-avatar",
+      "min_kb": null,
+      "max_kb": 20480,
+      "other_requirements": "20MB free (up from 10MB as of August 2026); Nitro Basic 50MB, Nitro up to 1GB. Some older Discord pages still say 10MB",
+      "source": {
+        "name": "Discord Support: File Attachments FAQ",
+        "url": "https://support.discord.com/hc/en-us/articles/25444343291031-File-Attachments-FAQ",
+        "quote": "For non-Nitro subscribers, the maximum file upload is 20MB.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "X (formerly Twitter)",
+      "what": "Profile photo upload",
+      "kind": "social",
+      "min_kb": null,
+      "max_kb": 2048,
+      "other_requirements": "JPEG, GIF or PNG; recommended 400 × 400 px (header image recommended 1500 × 500 px, no size stated); no animated GIFs for profile/header",
+      "source": {
+        "name": "X Help Center: Help with uploading a profile photo",
+        "url": "https://help.x.com/en/managing-your-account/common-issues-when-uploading-profile-photo",
+        "quote": "Maximum file size for profile photos is 2MB.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-2mb"
+    },
+    {
+      "organization": "Zoom",
+      "what": "Profile picture on the Zoom web portal",
+      "kind": "community-avatar",
+      "min_kb": null,
+      "max_kb": 2048,
+      "other_requirements": "JPG/JPEG, GIF or PNG",
+      "source": {
+        "name": "Zoom Support: Managing your profile picture on the Zoom web portal (KB0064565)",
+        "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064565",
+        "quote": "Supported file types include JPG/JPEG, GIF, or PNG files smaller than 2MB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-2mb"
+    },
+    {
+      "organization": "Government of India (Bureau of Immigration, Indian e-Visa portal)",
+      "what": "Digital photograph uploaded with an Indian e-Visa application",
+      "kind": "visa-passport",
+      "min_kb": 10,
+      "max_kb": 1024,
+      "other_requirements": "JPEG; height and width equal (square); full face, front view, eyes open, no spectacles; plain light or white background; no borders",
+      "source": {
+        "name": "Indian e-Visa portal: e-Visa information page (indianvisaonline.gov.in)",
+        "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+        "quote": "Format - JPEG Size Minimum 10 KB Maximum 1 MB The height and width of the Photo must be equal.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-1mb"
+    },
+    {
+      "organization": "Government of India (Bureau of Immigration, Indian e-Visa portal)",
+      "what": "Scanned passport bio page uploaded with an Indian e-Visa application",
+      "kind": "visa-passport",
+      "min_kb": 10,
+      "max_kb": 300,
+      "other_requirements": "PDF (not an image). Business/medical supporting documents have the same 10–300 KB PDF limit",
+      "source": {
+        "name": "Indian e-Visa portal: e-Visa information page (indianvisaonline.gov.in)",
+        "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+        "quote": "Scanned Bio Page of the passport showing the Photograph and Details. Format -PDF Size : Minimum 10 KB ,Maximum 300 KB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-300kb"
+    },
+    {
+      "organization": "Chinese Visa Application Service Center (visaforchina.cn, authorised by Chinese embassies/consulates)",
+      "what": "Photo uploaded in the China online visa application form",
+      "kind": "visa-passport",
+      "min_kb": 40,
+      "max_kb": 120,
+      "other_requirements": "JPEG only; English FAQ says dimensions 'cannot exceed 354*472' (the Chinese-language FAQ treats 354×472 as a minimum, so dimensions are inconsistent across official pages). FAQ page dated 2023-09-20; still live",
+      "source": {
+        "name": "Visa for China FAQ: How to upload the photo when filling in the online application form?",
+        "url": "https://www.visaforchina.cn/MAN3_EN/qianzhengyewu/jichuzhishi/changjianwenti/164185152103256105.html",
+        "quote": "can only be accepted as JPEG format ... dimensions of which cannot exceed 354*472 ... with a file size between 40KB-120KB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-120kb"
+    },
+    {
+      "organization": "Slack",
+      "what": "Custom emoji image",
+      "kind": "community-avatar",
+      "min_kb": null,
+      "max_kb": 128,
+      "other_requirements": "Recommended (not a hard cap): square, under 128KB, transparent background; JPG, PNG or GIF; GIFs up to 50 frames. Slack says it will try to resize larger files",
+      "source": {
+        "name": "Slack Help Center: Add custom emoji and aliases to your workspace",
+        "url": "https://slack.com/help/articles/206870177-Add-custom-emoji-and-aliases-to-your-workspace",
+        "quote": "Square images under 128KB and with transparent backgrounds work best. Images can be in JPG, PNG, or GIF format.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-120kb"
+    },
+    {
+      "organization": "Discord",
+      "what": "Custom server emoji upload",
+      "kind": "community-avatar",
+      "min_kb": null,
+      "max_kb": 256,
+      "other_requirements": "JPEG, PNG, GIF or WEBP; name at least 2 characters, alphanumeric and underscores",
+      "source": {
+        "name": "Discord Support: How to Add Custom Emojis on Discord",
+        "url": "https://support.discord.com/hc/en-us/articles/360036479811-How-to-Add-Custom-Emojis-on-Discord",
+        "quote": "Custom emojis must be under 256KB in size and use supported formats like JPEG, PNG, GIF, or WEBP.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-250kb"
+    },
+    {
+      "organization": "Telegram",
+      "what": "Static sticker image (imported stickers)",
+      "kind": "social",
+      "min_kb": null,
+      "max_kb": 512,
+      "other_requirements": "PNG or WEBP with transparent layer; max 512 × 512 px, at least one side exactly 512 px",
+      "source": {
+        "name": "Telegram: Importing Stickers to Telegram",
+        "url": "https://core.telegram.org/import-stickers",
+        "quote": "Max. size: 512 KB  Max. dimensions: 512x512 px, at least one side of the image must be 512px.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-500kb"
+    },
+    {
+      "organization": "Telegram",
+      "what": "Video sticker (WEBM/VP9)",
+      "kind": "social",
+      "min_kb": null,
+      "max_kb": 256,
+      "other_requirements": "WEBM with VP9; 512 × 512 px canvas; max 3 seconds; no audio",
+      "source": {
+        "name": "Telegram: Telegram Stickers (creation guide)",
+        "url": "https://core.telegram.org/stickers",
+        "quote": "Video size should not exceed 256 KB.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-250kb"
+    },
+    {
+      "organization": "Telegram",
+      "what": "Animated sticker (TGS / Lottie)",
+      "kind": "social",
+      "min_kb": null,
+      "max_kb": 64,
+      "other_requirements": "TGS made with Bodymovin-TG; 512 × 512 px; max 3 seconds. Vector animation, not a raster image",
+      "source": {
+        "name": "Telegram: Telegram Stickers (creation guide)",
+        "url": "https://core.telegram.org/stickers",
+        "quote": "Final file size must not exceed 64 KB after rendering in Bodymovin.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-50kb"
+    },
+    {
+      "organization": "LinkedIn",
+      "what": "Profile photo and background photo upload",
+      "kind": "job-education",
+      "min_kb": null,
+      "max_kb": 8192,
+      "other_requirements": "Profile photo between 400 × 400 and 7680 × 4320 px; background recommended 1584 × 396 px; PNG or JPG; GIFs not supported",
+      "source": {
+        "name": "LinkedIn Help: Photo Won't Upload to Your Profile",
+        "url": "https://www.linkedin.com/help/linkedin/answer/a549049",
+        "quote": "Maximum file size is 8MB.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Google (Google Business Profile)",
+      "what": "Photos added to a Google Business Profile",
+      "kind": "other",
+      "min_kb": 10,
+      "max_kb": 5120,
+      "other_requirements": "JPG or PNG; recommended 720 × 720 px; minimum 250 × 250 px",
+      "source": {
+        "name": "Google Business Profile Help: Tips for business-specific photos on your Business Profile",
+        "url": "https://support.google.com/business/answer/6123536?hl=en",
+        "quote": "Size: Between 10 KB and 5 MB.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Google (Google Play)",
+      "what": "App icon for a Google Play store listing",
+      "kind": "other",
+      "min_kb": null,
+      "max_kb": 1024,
+      "other_requirements": "512 × 512 px, 32-bit PNG, sRGB",
+      "source": {
+        "name": "Android Developers: Google Play icon design specifications",
+        "url": "https://developer.android.com/distribute/google-play/resources/icon-design-specifications",
+        "quote": "Max file size: 1024KB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-1mb"
+    },
+    {
+      "organization": "Meta (WhatsApp Business Platform / Cloud API)",
+      "what": "Static sticker sent via the WhatsApp Cloud API",
+      "kind": "social",
+      "min_kb": null,
+      "max_kb": 100,
+      "other_requirements": "WebP (image/webp) only; 512 × 512 px per Meta's messages reference",
+      "source": {
+        "name": "Meta for Developers: WhatsApp Cloud API – Sticker messages",
+        "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/messages/sticker-messages/",
+        "quote": "Static sticker .webp image/webp 100 KB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-100kb"
+    },
+    {
+      "organization": "Meta (WhatsApp Business Platform / Cloud API)",
+      "what": "Animated sticker sent via the WhatsApp Cloud API",
+      "kind": "social",
+      "min_kb": null,
+      "max_kb": 500,
+      "other_requirements": "Animated WebP (image/webp) only",
+      "source": {
+        "name": "Meta for Developers: WhatsApp Cloud API – Sticker messages",
+        "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/messages/sticker-messages/",
+        "quote": "Animated sticker .webp image/webp 500 KB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-500kb"
+    },
+    {
+      "organization": "Bluesky (AT Protocol)",
+      "what": "Profile avatar and banner image (app.bsky.actor.profile lexicon)",
+      "kind": "social",
+      "min_kb": null,
+      "max_kb": 977,
+      "other_requirements": "maxSize 1000000 bytes (1 MB decimal ≈ 977 KiB); PNG or JPEG only",
+      "source": {
+        "name": "Bluesky atproto repository: lexicons/app/bsky/actor/profile.json (GitHub, main branch)",
+        "url": "https://github.com/bluesky-social/atproto/blob/main/packages/api/lexicons/app/bsky/actor/profile.json",
+        "quote": "\"accept\": [\"image/png\", \"image/jpeg\"], \"maxSize\": 1000000",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-800kb"
+    },
+    {
+      "organization": "Bluesky (AT Protocol)",
+      "what": "Image embedded in a Bluesky post (app.bsky.embed.images lexicon)",
+      "kind": "social",
+      "min_kb": null,
+      "max_kb": 1953,
+      "other_requirements": "maxSize 2000000 bytes (2 MB decimal ≈ 1953 KiB); any image/* type",
+      "source": {
+        "name": "Bluesky atproto repository: lexicons/app/bsky/embed/images.json (GitHub, main branch)",
+        "url": "https://github.com/bluesky-social/atproto/blob/main/packages/api/lexicons/app/bsky/embed/images.json",
+        "quote": "\"accept\": [\"image/*\"], \"maxSize\": 2000000",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-1-5mb"
+    },
+    {
+      "organization": "Etsy",
+      "what": "Listing photo upload (practical guidance)",
+      "kind": "ecommerce",
+      "min_kb": null,
+      "max_kb": 1024,
+      "other_requirements": "Guidance, not a hard cap: images over 1MB may not finish uploading on slower connections. Etsy recommends 2000 px or more on the shortest side",
+      "source": {
+        "name": "Etsy Help: Requirements and Best Practices for Images in Your Etsy Shop",
+        "url": "https://help.etsy.com/hc/en-us/articles/115015663347-Requirements-and-Best-Practices-for-Images-in-Your-Etsy-Shop",
+        "quote": "Images larger than 1MB in file size may not finish uploading, especially on a slower internet connection.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-1mb"
+    },
+    {
+      "organization": "Shopify",
+      "what": "Product and collection images",
+      "kind": "ecommerce",
+      "min_kb": null,
+      "max_kb": 20480,
+      "other_requirements": "Up to 5000 × 5000 px or 25 megapixels; file must be smaller than 20 MB",
+      "source": {
+        "name": "Shopify Help Center: Product media types",
+        "url": "https://help.shopify.com/en/manual/products/product-media/product-media-types",
+        "quote": "Product and collection images need to have a file size smaller than 20 MB to be added to Shopify.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "eBay",
+      "what": "Listing photos uploaded with eBay's photo uploader",
+      "kind": "ecommerce",
+      "min_kb": null,
+      "max_kb": 12288,
+      "other_requirements": "Minimum 500 × 500 px, about 1600 × 1600 recommended; JPEG, PNG, GIF, TIFF, BMP, WEBP, HEIC or AVIF",
+      "source": {
+        "name": "eBay Help: Adding pictures to your listings",
+        "url": "https://www.ebay.com/help/selling/listings/adding-pictures-listings?id=4148",
+        "quote": "Browse to find the photos you want (maximum 12MB each).",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Discourse (open-source forum software)",
+      "what": "Default maximum image upload size on a Discourse forum (max_image_size_kb site setting)",
+      "kind": "community-avatar",
+      "min_kb": null,
+      "max_kb": 10240,
+      "other_requirements": "Default 10240 kB, admin-configurable up to 102400 kB; max_attachment_size_kb also defaults to 10240. Individual forums may set different values",
+      "source": {
+        "name": "Discourse source: config/site_settings.yml (GitHub, main branch)",
+        "url": "https://github.com/discourse/discourse/blob/main/config/site_settings.yml",
+        "quote": "max_image_size_kb:\n    client: true\n    default: 10240\n    max: 102400",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Mastodon (open-source social network software)",
+      "what": "Image attached to a Mastodon post",
+      "kind": "social",
+      "min_kb": null,
+      "max_kb": 16384,
+      "other_requirements": "PNG, JPG, HEIF, WEBP, AVIF; up to 4 images per post. Individual servers can differ",
+      "source": {
+        "name": "Mastodon source: app/models/media_attachment.rb (GitHub, main branch)",
+        "url": "https://github.com/mastodon/mastodon/blob/main/app/models/media_attachment.rb",
+        "quote": "IMAGE_LIMIT = 16.megabytes",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Twitch",
+      "what": "Subscriber badge images (and tier flair)",
+      "kind": "community-avatar",
+      "min_kb": null,
+      "max_kb": 25,
+      "other_requirements": "PNG with transparent background; three sizes 18 × 18, 36 × 36 and 72 × 72 px",
+      "source": {
+        "name": "Twitch Help: Subscriber Badge Guide",
+        "url": "https://help.twitch.tv/s/article/subscriber-badge-guide?language=en_US",
+        "quote": "The file size cannot exceed 25kb.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-25kb"
+    },
+    {
+      "organization": "Twitch",
+      "what": "Static emote upload (auto-resize mode)",
+      "kind": "community-avatar",
+      "min_kb": null,
+      "max_kb": 1024,
+      "other_requirements": "Single PNG between 112 × 112 and 4096 × 4096 px (auto-resize), or 28/56/112 px set; animated GIF emotes: 1MB auto-resize, 512KB per file in manual mode",
+      "source": {
+        "name": "Twitch Help: Emote Formatting & Instant Emote Upload Requirements",
+        "url": "https://help.twitch.tv/s/article/emote-guidelines?language=en_US",
+        "quote": "The file size cannot exceed 1MB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-1mb"
+    },
+    {
+      "organization": "Twitch",
+      "what": "Animated (GIF) emote, manual upload mode, per file",
+      "kind": "community-avatar",
+      "min_kb": null,
+      "max_kb": 512,
+      "other_requirements": "Three GIFs at 28 × 28, 56 × 56 and 112 × 112 px",
+      "source": {
+        "name": "Twitch Help: Emote Formatting & Instant Emote Upload Requirements",
+        "url": "https://help.twitch.tv/s/article/emote-guidelines?language=en_US",
+        "quote": "1MB file size max for auto-resize mode. If using manual mode, each of the file sizes cannot exceed 512KB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-500kb"
+    },
+    {
+      "organization": "Spotify",
+      "what": "Custom playlist cover image uploaded via the Spotify Web API",
+      "kind": "other",
+      "min_kb": null,
+      "max_kb": 256,
+      "other_requirements": "Base64-encoded JPEG; the 256 KB limit applies to the base64 payload, so the raw JPEG must be about 190 KB or less",
+      "source": {
+        "name": "Spotify for Developers: Web API Reference – Add Custom Playlist Cover Image",
+        "url": "https://developer.spotify.com/documentation/web-api/reference/upload-custom-playlist-cover",
+        "quote": "Base64 encoded JPEG image data, maximum payload size is 256 KB.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-250kb"
+    },
+    {
+      "organization": "YouTube (Google)",
+      "what": "Custom video thumbnail uploaded from a mobile device",
+      "kind": "social",
+      "min_kb": null,
+      "max_kb": 2048,
+      "other_requirements": "JPG or PNG; 3840 × 2160 px recommended for videos, min width 640 px; desktop uploads allow 50MB; podcasts 10 MB on mobile",
+      "source": {
+        "name": "YouTube Help: Add custom thumbnails on YouTube",
+        "url": "https://support.google.com/youtube/answer/72431?hl=en",
+        "quote": "Mobile: 2 MB for video thumbnails or 10 MB for podcasts. Desktop: 50MB for video, Shorts, and podcast thumbnails.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-2mb"
+    },
+    {
+      "organization": "YouTube (Google)",
+      "what": "Channel banner image",
+      "kind": "social",
+      "min_kb": null,
+      "max_kb": 6144,
+      "other_requirements": "Minimum 2048 × 1152 px, 16:9; recommended 2560 × 1440 px. Profile picture limit on the same page: 15 MB",
+      "source": {
+        "name": "YouTube Help: Manage your channel branding",
+        "url": "https://support.google.com/youtube/answer/10456525?hl=en",
+        "quote": "File size: 6 MB or smaller.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Google (Google Ads)",
+      "what": "Image asset for Uploaded Display ads in Demand Gen campaigns",
+      "kind": "other",
+      "min_kb": null,
+      "max_kb": 150,
+      "other_requirements": ".jpg, .png or non-animated .gif; up to 20 image assets per ad. Logo assets in Demand Gen are also capped at 150 KB; general Demand Gen image assets 5 MB",
+      "source": {
+        "name": "Google Ads Help: About image assets specifications and ad format guidelines for Demand Gen campaigns",
+        "url": "https://support.google.com/google-ads/answer/17140672",
+        "quote": "Supported format: .jpg, .png, .gif (non-animated) Max. file size: 150 KB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-150kb"
+    },
+    {
+      "organization": "Notion",
+      "what": "File/image upload on the Notion Free Plan",
+      "kind": "other",
+      "min_kb": null,
+      "max_kb": 5120,
+      "other_requirements": "Free Plan: all files under 5MB. Paid plans: images (PNG, JPG) under 5MB, PDFs under 20MB per the note on the same page (its FAQ says up to 5GB per file on paid plans)",
+      "source": {
+        "name": "Notion Help Center: Images, files & media in Notion",
+        "url": "https://www.notion.com/help/images-files-and-media",
+        "quote": "If you're on the Free Plan, all files you upload must be under 5MB.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Department of Internal Affairs – New Zealand Passports",
+      "what": "Digital photo for an online New Zealand passport application",
+      "kind": "visa-passport",
+      "min_kb": 250,
+      "max_kb": 5120,
+      "other_requirements": "Colour portrait, 3:4 aspect ratio; .jpg/.jpeg; 900–4500 px wide and 1200–6000 px high; less than 6 months old",
+      "source": {
+        "name": "New Zealand Passports: Passport photos",
+        "url": "https://www.passports.govt.nz/passport-photos",
+        "quote": "between 250KB and 5MB in size",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Immigration New Zealand",
+      "what": "Photo for an online visa or NZeTA application",
+      "kind": "visa-passport",
+      "min_kb": 512,
+      "max_kb": 3215,
+      "other_requirements": "JPG/JPEG; portrait, 3:4 aspect ratio; stated as 512 KB to 3.14 MB",
+      "source": {
+        "name": "Immigration New Zealand: Acceptable photos for a visa or NZeTA",
+        "url": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/applying-online/uploading-documents-and-photos/visa-and-nzeta-photos/",
+        "quote": "between 512 KB and 3.14 MB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-3mb"
+    },
+    {
+      "organization": "Kerala Public Service Commission (India)",
+      "what": "Photograph uploaded to the Kerala PSC One Time Registration profile",
+      "kind": "government-exam",
+      "min_kb": null,
+      "max_kb": 30,
+      "other_requirements": "200 px high × 150 px wide; jpg; name and date of photo printed at bottom; white/light background. Stated in the April 2025 departmental-exam notification (same rule appears across Kerala PSC notifications)",
+      "source": {
+        "name": "Kerala PSC notification No. DE 3-1/1/2025-KPSC dated 25/04/2025 (keralapsc.gov.in)",
+        "url": "https://www.keralapsc.gov.in/sites/default/files/2025-04/dept-notif-3-25.pdf",
+        "quote": "Uploading photograph should be 200 pixels height, 150 pixels width, not exceeding a file size of 30 kb, in jpg format.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-30kb"
+    },
+    {
+      "organization": "Bangladesh Public Service Commission",
+      "what": "Photo for the 51st BCS (Special) Examination 2026 online application (Teletalk)",
+      "kind": "government-exam",
+      "min_kb": null,
+      "max_kb": 100,
+      "other_requirements": "Exactly 300 × 300 pixels (circular says not less or more); colour photo taken within the last 3 months, no sunglasses. Circular is in Bengali; quote gives the numeric part",
+      "source": {
+        "name": "BPSC 51st BCS (Special) Examination 2026 circular (bpsc.teletalk.com.bd)",
+        "url": "https://bpsc.teletalk.com.bd/bcs51/doc/circulation.pdf",
+        "quote": "300 × 300 (দৈর্ঘ্য × প্রস্থ) pixel এর কম বা বেশি নয় এবং File Size 100 KB এর বেশি নয় (300 × 300 pixels, not less or more, and file size not more than 100 KB)",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-100kb"
+    },
+    {
+      "organization": "Bangladesh Public Service Commission",
+      "what": "Signature for the 51st BCS (Special) Examination 2026 online application (Teletalk)",
+      "kind": "government-exam",
+      "min_kb": null,
+      "max_kb": 60,
+      "other_requirements": "Exactly 300 × 80 pixels. Circular is in Bengali; quote gives the numeric part",
+      "source": {
+        "name": "BPSC 51st BCS (Special) Examination 2026 circular (bpsc.teletalk.com.bd)",
+        "url": "https://bpsc.teletalk.com.bd/bcs51/doc/circulation.pdf",
+        "quote": "300 × 80 pixel এর কম বা বেশি নয় এবং File Size 60 KB এর বেশি নয় (300 × 80 pixels, not less or more, and file size not more than 60 KB)",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-50kb"
+    },
+    {
+      "organization": "Department of Foreign Affairs (Ireland) – Passport Service",
+      "what": "Digital photo for an online Irish passport (book or card) application",
+      "kind": "visa-passport",
+      "min_kb": null,
+      "max_kb": 9216,
+      "other_requirements": "Colour JPEG; not less than 715 px wide and 951 px high; not scanned; no compression artefacts; not digitally changed",
+      "source": {
+        "name": "ireland.ie: Photo Guidelines For Passports",
+        "url": "https://www.ireland.ie/en/dfa/passports/photo-guidelines/",
+        "quote": "Not be less than 715 pixels wide and 951 pixels in height.Be in JPEG format. ... Not be larger than 9 megabytes (9MB).",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Ministry of Foreign Affairs of Japan (JAPAN eVISA)",
+      "what": "Facial photo uploaded in a JAPAN eVISA application",
+      "kind": "visa-passport",
+      "min_kb": null,
+      "max_kb": 2048,
+      "other_requirements": "Recommendation, not a stated hard cap: up to 2MB; JPG, PNG, GIF, BMP or HEIC. Passport data page and supporting documents: also up to 2MB recommended",
+      "source": {
+        "name": "JAPAN eVISA FAQ (Q63) (evisa.mofa.go.jp)",
+        "url": "https://www.evisa.mofa.go.jp/faq",
+        "quote": "File format: JPG, PNG, GIF, BMP, HEIC-File size: up to 2MB is recommended.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-2mb"
+    },
+    {
+      "organization": "Royal Thai Embassy, Washington D.C. (Thailand e-Visa)",
+      "what": "Photo and documents uploaded to the Thailand e-Visa system for a tourist visa",
+      "kind": "visa-passport",
+      "min_kb": null,
+      "max_kb": 3072,
+      "other_requirements": "JPEG or PDF, large and clear; photo taken within the past six months. Page updated 27 Aug 2026; other Thai embassies give the same 3 MB figure",
+      "source": {
+        "name": "Royal Thai Embassy, Washington D.C.: Tourist Visa (single entry)",
+        "url": "https://washingtondc.thaiembassy.org/en/page/trsingle-entry",
+        "quote": "The following documents must be uploaded in the E-visa system in large and clear JPEG or PDF format (the file size must not exceed 3MB)",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-3mb"
+    },
+    {
+      "organization": "Federal Public Service Commission (Pakistan)",
+      "what": "Passport-size picture for an FPSC online application (General Recruitment)",
+      "kind": "government-exam",
+      "min_kb": null,
+      "max_kb": 30,
+      "other_requirements": "jpg/jpeg only; recent passport-size picture; avoid informal pictures",
+      "source": {
+        "name": "FPSC Guidelines for Online Application Submission (updated 09-09-2025) (fpsc.gov.pk)",
+        "url": "https://cp.fpsc.gov.pk/gr_one/Guidelines_for_Online_Application_Submission_FPSC_updated_09-09-2025.pdf",
+        "quote": "Upload softcopy of your passport size picture using ‘Choose File’ button. The picture size must be less than 30 KB and in “jpeg” format only.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-30kb"
+    },
+    {
+      "organization": "IIT Madras (organising institute, GATE 2027)",
+      "what": "Photograph for the GATE 2027 online application (GOAPS)",
+      "kind": "government-exam",
+      "min_kb": null,
+      "max_kb": 600,
+      "other_requirements": "JPEG/JPG; colour, passport size 3.5 × 4.5 cm, white background; aspect ratio 0.66–0.89; 200 × 260 px min to 530 × 690 px max. (The GATE 2027 photograph web page lists a 5 KB minimum.)",
+      "source": {
+        "name": "GATE 2027 Information Brochure, revised 17 October 2026 (gate2027ib.iitm.ac.in)",
+        "url": "https://gate2027ib.iitm.ac.in/GATE2027-IB.pdf",
+        "quote": "The maximum pixel resolution is 530 × 690 pixels and the minimum resolution is 200 × 260 pixels. The maximum file size that can be uploaded is 600 kB.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-600kb"
+    },
+    {
+      "organization": "IIT Madras (organising institute, GATE 2027)",
+      "what": "Signature for the GATE 2027 online application (GOAPS)",
+      "kind": "government-exam",
+      "min_kb": null,
+      "max_kb": 300,
+      "other_requirements": "JPEG/JPG; black or dark blue ink; aspect ratio 1:2.75–1:3.75; 250 × 80 px min to 580 × 180 px max",
+      "source": {
+        "name": "GATE 2027 Information Brochure, revised 17 October 2026 (gate2027ib.iitm.ac.in)",
+        "url": "https://gate2027ib.iitm.ac.in/GATE2027-IB.pdf",
+        "quote": "The maximum file size that can be uploaded is 300 kB. The maximum pixel resolution is 580 × 180 pixels and the minimum resolution is 250 × 80 pixels.",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-300kb"
+    },
+    {
+      "organization": "Immigration & Checkpoints Authority (Singapore)",
+      "what": "Photo uploaded via ICA e-Services",
+      "kind": "visa-passport",
+      "min_kb": null,
+      "max_kb": 8192,
+      "other_requirements": "jpg, jpeg, heic, heif or png; dimension 400 × 514 pixels for e-Services uploads",
+      "source": {
+        "name": "ICA Singapore: Photo Guidelines",
+        "url": "https://www.ica.gov.sg/photo-guidelines",
+        "quote": "jpg, jpeg, heic, heif and png file extension 8MB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Immigration & Checkpoints Authority (Singapore)",
+      "what": "Scanned signature for an APEC Business Travel Card (ABTC) application",
+      "kind": "visa-passport",
+      "min_kb": null,
+      "max_kb": 60,
+      "other_requirements": "JPEG (.jpg); preferred 250 × 220 pixels",
+      "source": {
+        "name": "ICA Singapore: APEC Business Travel Card",
+        "url": "https://www.ica.gov.sg/enter-depart/for-singapore-citizens/apec-business-travel-card",
+        "quote": "Scanned signature image file:- in JPEG format ('jpg' extension) - Preferred dimension of 250 x 220 pixels - File size of less than 60 KBytes",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-50kb"
+    },
+    {
+      "organization": "Immigration Department (Hong Kong SAR)",
+      "what": "Digital photograph submitted online or via the ImmD mobile app for a passport application",
+      "kind": "visa-passport",
+      "min_kb": null,
+      "max_kb": 5120,
+      "other_requirements": "JPEG; scanner capture at 600 dpi for a 40 mm × 50 mm photo (camera capture at least 1200 × 1600 px per ImmD)",
+      "source": {
+        "name": "Hong Kong ImmD: Photograph Requirements for Travel Document",
+        "url": "https://www.immd.gov.hk/eng/residents/immigration/traveldoc/photorequirements.html",
+        "quote": "Image type: JPEG File size: 5MB or below",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    },
+    {
+      "organization": "Embassy of India, Bogotá (Passport Seva applicant portal)",
+      "what": "Supporting documents uploaded with an Indian passport application at the embassy (applicant portal)",
+      "kind": "visa-passport",
+      "min_kb": null,
+      "max_kb": 1024,
+      "other_requirements": "Maximum 1 MB, and all uploaded documents together no more than 1 MB. Same guideline gives photo dimensions 630 × 810 px, colour, white background (no photo KB limit stated). Issued by one mission; other Indian missions may publish their own",
+      "source": {
+        "name": "Embassy of India Bogotá: Guidelines for uploading of ICAO photograph, signature and documents (PDF)",
+        "url": "https://www.eoibogota.gov.in/content/Guidelines-for-uploading-of-ICAO-photograph-signature-and-Documents-which-are-mandatory-at-applicants-level_1.pdf",
+        "quote": "Maximum Size allowed 1 MB  The total of all uploaded documents should be not more than 1 MB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-1mb"
+    },
+    {
+      "organization": "Ministry of Foreign Affairs of Estonia (State Protocol Department)",
+      "what": "Digital document photo for an Estonian diplomatic ID card application",
+      "kind": "other",
+      "min_kb": 1024,
+      "max_kb": 5120,
+      "other_requirements": "Colour, unedited; 40 × 50 mm; at least 1300 × 1600 px; taken in last six months; a minimum, not just a maximum, applies. Document dated 2025-11",
+      "source": {
+        "name": "Estonian MFA: Requirements for a photo (PDF, vm.ee, 2025-11)",
+        "url": "https://www.vm.ee/sites/default/files/documents/2025-11/Photo%20requirements.pdf",
+        "quote": "The file size of the document photo must be at least 1 MB and a maximum of 5 MB",
+        "checked": "2026-10-24"
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    }
+  ]
+}

@@ -1,0 +1,1294 @@
+{
+  "updated": "2026-11-08",
+  "note": "Pixohub's resize preset values. Not official specifications: see platform-image-sizes.json for sourced facts.",
+  "count": 143,
+  "items": [
+    {
+      "id": "instagram-post",
+      "platform": "Instagram",
+      "usage": "Square Post",
+      "width": 1080,
+      "height": 1080,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/instagram-post"
+    },
+    {
+      "id": "instagram-portrait",
+      "platform": "Instagram",
+      "usage": "Portrait Post",
+      "width": 1080,
+      "height": 1350,
+      "aspect": "4:5",
+      "tool": "https://pixohub.com/resize/instagram-portrait"
+    },
+    {
+      "id": "instagram-story",
+      "platform": "Instagram",
+      "usage": "Story / Reel",
+      "width": 1080,
+      "height": 1920,
+      "aspect": "9:16",
+      "tool": "https://pixohub.com/resize/instagram-story"
+    },
+    {
+      "id": "instagram-landscape",
+      "platform": "Instagram",
+      "usage": "Landscape Post",
+      "width": 1080,
+      "height": 566,
+      "aspect": "1.91:1",
+      "tool": "https://pixohub.com/resize/instagram-landscape"
+    },
+    {
+      "id": "instagram-profile",
+      "platform": "Instagram",
+      "usage": "Profile Picture",
+      "width": 320,
+      "height": 320,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/instagram-profile"
+    },
+    {
+      "id": "facebook-post",
+      "platform": "Facebook",
+      "usage": "Feed Post",
+      "width": 1200,
+      "height": 630,
+      "aspect": "1.91:1",
+      "tool": "https://pixohub.com/resize/facebook-post"
+    },
+    {
+      "id": "facebook-cover",
+      "platform": "Facebook",
+      "usage": "Cover Photo",
+      "width": 851,
+      "height": 315,
+      "aspect": "2.7:1",
+      "tool": "https://pixohub.com/resize/facebook-cover"
+    },
+    {
+      "id": "facebook-story",
+      "platform": "Facebook",
+      "usage": "Story",
+      "width": 1080,
+      "height": 1920,
+      "aspect": "9:16",
+      "tool": "https://pixohub.com/resize/facebook-story"
+    },
+    {
+      "id": "facebook-event",
+      "platform": "Facebook",
+      "usage": "Event Cover",
+      "width": 1200,
+      "height": 628,
+      "aspect": "1.91:1",
+      "tool": "https://pixohub.com/resize/facebook-event"
+    },
+    {
+      "id": "twitter-post",
+      "platform": "Twitter / X",
+      "usage": "In-stream Image",
+      "width": 1600,
+      "height": 900,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/twitter-post"
+    },
+    {
+      "id": "twitter-header",
+      "platform": "Twitter / X",
+      "usage": "Header / Banner",
+      "width": 1500,
+      "height": 500,
+      "aspect": "3:1",
+      "tool": "https://pixohub.com/resize/twitter-header"
+    },
+    {
+      "id": "twitter-profile",
+      "platform": "Twitter / X",
+      "usage": "Profile Picture",
+      "width": 400,
+      "height": 400,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/twitter-profile"
+    },
+    {
+      "id": "linkedin-post",
+      "platform": "LinkedIn",
+      "usage": "Shared Post",
+      "width": 1200,
+      "height": 627,
+      "aspect": "1.91:1",
+      "tool": "https://pixohub.com/resize/linkedin-post"
+    },
+    {
+      "id": "linkedin-banner",
+      "platform": "LinkedIn",
+      "usage": "Profile Banner",
+      "width": 1584,
+      "height": 396,
+      "aspect": "4:1",
+      "tool": "https://pixohub.com/resize/linkedin-banner"
+    },
+    {
+      "id": "linkedin-company-cover",
+      "platform": "LinkedIn",
+      "usage": "Company Cover",
+      "width": 1512,
+      "height": 256,
+      "aspect": "5.9:1",
+      "tool": "https://pixohub.com/resize/linkedin-company-cover"
+    },
+    {
+      "id": "linkedin-profile",
+      "platform": "LinkedIn",
+      "usage": "Profile Picture",
+      "width": 400,
+      "height": 400,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/linkedin-profile"
+    },
+    {
+      "id": "youtube-thumbnail",
+      "platform": "YouTube",
+      "usage": "Thumbnail",
+      "width": 1280,
+      "height": 720,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/youtube-thumbnail"
+    },
+    {
+      "id": "youtube-banner",
+      "platform": "YouTube",
+      "usage": "Channel Banner",
+      "width": 2560,
+      "height": 1440,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/youtube-banner"
+    },
+    {
+      "id": "youtube-profile",
+      "platform": "YouTube",
+      "usage": "Channel Icon",
+      "width": 800,
+      "height": 800,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/youtube-profile"
+    },
+    {
+      "id": "pinterest-pin",
+      "platform": "Pinterest",
+      "usage": "Standard Pin",
+      "width": 1000,
+      "height": 1500,
+      "aspect": "2:3",
+      "tool": "https://pixohub.com/resize/pinterest-pin"
+    },
+    {
+      "id": "pinterest-square",
+      "platform": "Pinterest",
+      "usage": "Square Pin",
+      "width": 1000,
+      "height": 1000,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/pinterest-square"
+    },
+    {
+      "id": "tiktok-video",
+      "platform": "TikTok",
+      "usage": "Video Cover",
+      "width": 1080,
+      "height": 1920,
+      "aspect": "9:16",
+      "tool": "https://pixohub.com/resize/tiktok-video"
+    },
+    {
+      "id": "tiktok-profile",
+      "platform": "TikTok",
+      "usage": "Profile Picture",
+      "width": 200,
+      "height": 200,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/tiktok-profile"
+    },
+    {
+      "id": "snapchat-story",
+      "platform": "Snapchat",
+      "usage": "Story / Ad",
+      "width": 1080,
+      "height": 1920,
+      "aspect": "9:16",
+      "tool": "https://pixohub.com/resize/snapchat-story"
+    },
+    {
+      "id": "whatsapp-profile",
+      "platform": "WhatsApp",
+      "usage": "Profile Picture",
+      "width": 500,
+      "height": 500,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/whatsapp-profile"
+    },
+    {
+      "id": "whatsapp-status",
+      "platform": "WhatsApp",
+      "usage": "Status",
+      "width": 1080,
+      "height": 1920,
+      "aspect": "9:16",
+      "tool": "https://pixohub.com/resize/whatsapp-status"
+    },
+    {
+      "id": "discord-profile",
+      "platform": "Discord",
+      "usage": "Profile Avatar",
+      "width": 128,
+      "height": 128,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/discord-profile"
+    },
+    {
+      "id": "discord-banner",
+      "platform": "Discord",
+      "usage": "Profile Banner",
+      "width": 680,
+      "height": 240,
+      "aspect": "17:6",
+      "tool": "https://pixohub.com/resize/discord-banner"
+    },
+    {
+      "id": "twitch-profile",
+      "platform": "Twitch",
+      "usage": "Profile Picture",
+      "width": 256,
+      "height": 256,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/twitch-profile"
+    },
+    {
+      "id": "twitch-banner",
+      "platform": "Twitch",
+      "usage": "Channel Banner",
+      "width": 1200,
+      "height": 480,
+      "aspect": "5:2",
+      "tool": "https://pixohub.com/resize/twitch-banner"
+    },
+    {
+      "id": "pinterest-profile",
+      "platform": "Pinterest",
+      "usage": "Profile Picture",
+      "width": 165,
+      "height": 165,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/pinterest-profile"
+    },
+    {
+      "id": "facebook-profile",
+      "platform": "Facebook",
+      "usage": "Profile Picture",
+      "width": 320,
+      "height": 320,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/facebook-profile"
+    },
+    {
+      "id": "facebook-ad",
+      "platform": "Facebook",
+      "usage": "Feed Ad",
+      "width": 1080,
+      "height": 1080,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/facebook-ad"
+    },
+    {
+      "id": "linkedin-company-logo",
+      "platform": "LinkedIn",
+      "usage": "Company Logo",
+      "width": 400,
+      "height": 400,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/linkedin-company-logo"
+    },
+    {
+      "id": "youtube-community",
+      "platform": "YouTube",
+      "usage": "Community Post",
+      "width": 1080,
+      "height": 1080,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/youtube-community"
+    },
+    {
+      "id": "email-header",
+      "platform": "Email",
+      "usage": "Newsletter Header",
+      "width": 600,
+      "height": 200,
+      "aspect": "3:1",
+      "tool": "https://pixohub.com/resize/email-header"
+    },
+    {
+      "id": "og-image",
+      "platform": "Website",
+      "usage": "Open Graph / Social Preview",
+      "width": 1200,
+      "height": 630,
+      "aspect": "1.91:1",
+      "tool": "https://pixohub.com/resize/og-image"
+    },
+    {
+      "id": "tumblr-post",
+      "platform": "Tumblr",
+      "usage": "Image Post",
+      "width": 1280,
+      "height": 1920,
+      "aspect": "2:3",
+      "tool": "https://pixohub.com/resize/tumblr-post"
+    },
+    {
+      "id": "reddit-banner",
+      "platform": "Reddit",
+      "usage": "Profile Banner",
+      "width": 1920,
+      "height": 384,
+      "aspect": "5:1",
+      "tool": "https://pixohub.com/resize/reddit-banner"
+    },
+    {
+      "id": "medium-header",
+      "platform": "Medium",
+      "usage": "Article Header",
+      "width": 1500,
+      "height": 750,
+      "aspect": "2:1",
+      "tool": "https://pixohub.com/resize/medium-header"
+    },
+    {
+      "id": "wallpaper-1920x1080",
+      "platform": "Desktop Wallpaper",
+      "usage": "Full HD (1080p)",
+      "width": 1920,
+      "height": 1080,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/wallpaper-1920x1080"
+    },
+    {
+      "id": "wallpaper-2560x1440",
+      "platform": "Desktop Wallpaper",
+      "usage": "QHD (1440p)",
+      "width": 2560,
+      "height": 1440,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/wallpaper-2560x1440"
+    },
+    {
+      "id": "wallpaper-3840x2160",
+      "platform": "Desktop Wallpaper",
+      "usage": "4K UHD",
+      "width": 3840,
+      "height": 2160,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/wallpaper-3840x2160"
+    },
+    {
+      "id": "wallpaper-1366x768",
+      "platform": "Desktop Wallpaper",
+      "usage": "HD Laptop",
+      "width": 1366,
+      "height": 768,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/wallpaper-1366x768"
+    },
+    {
+      "id": "wallpaper-1600x900",
+      "platform": "Desktop Wallpaper",
+      "usage": "HD+",
+      "width": 1600,
+      "height": 900,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/wallpaper-1600x900"
+    },
+    {
+      "id": "wallpaper-1440x900",
+      "platform": "Desktop Wallpaper",
+      "usage": "WXGA+",
+      "width": 1440,
+      "height": 900,
+      "aspect": "16:10",
+      "tool": "https://pixohub.com/resize/wallpaper-1440x900"
+    },
+    {
+      "id": "wallpaper-1680x1050",
+      "platform": "Desktop Wallpaper",
+      "usage": "WSXGA+",
+      "width": 1680,
+      "height": 1050,
+      "aspect": "16:10",
+      "tool": "https://pixohub.com/resize/wallpaper-1680x1050"
+    },
+    {
+      "id": "wallpaper-1920x1200",
+      "platform": "Desktop Wallpaper",
+      "usage": "WUXGA",
+      "width": 1920,
+      "height": 1200,
+      "aspect": "16:10",
+      "tool": "https://pixohub.com/resize/wallpaper-1920x1200"
+    },
+    {
+      "id": "wallpaper-2560x1600",
+      "platform": "Desktop Wallpaper",
+      "usage": "WQXGA",
+      "width": 2560,
+      "height": 1600,
+      "aspect": "16:10",
+      "tool": "https://pixohub.com/resize/wallpaper-2560x1600"
+    },
+    {
+      "id": "wallpaper-3440x1440",
+      "platform": "Desktop Wallpaper",
+      "usage": "Ultrawide QHD",
+      "width": 3440,
+      "height": 1440,
+      "aspect": "21:9",
+      "tool": "https://pixohub.com/resize/wallpaper-3440x1440"
+    },
+    {
+      "id": "wallpaper-5120x1440",
+      "platform": "Desktop Wallpaper",
+      "usage": "Super Ultrawide",
+      "width": 5120,
+      "height": 1440,
+      "aspect": "32:9",
+      "tool": "https://pixohub.com/resize/wallpaper-5120x1440"
+    },
+    {
+      "id": "wallpaper-3840x1600",
+      "platform": "Desktop Wallpaper",
+      "usage": "Ultrawide 4K",
+      "width": 3840,
+      "height": 1600,
+      "aspect": "24:10",
+      "tool": "https://pixohub.com/resize/wallpaper-3840x1600"
+    },
+    {
+      "id": "wallpaper-1280x1024",
+      "platform": "Desktop Wallpaper",
+      "usage": "SXGA",
+      "width": 1280,
+      "height": 1024,
+      "aspect": "5:4",
+      "tool": "https://pixohub.com/resize/wallpaper-1280x1024"
+    },
+    {
+      "id": "wallpaper-2880x1800",
+      "platform": "Desktop Wallpaper",
+      "usage": "Retina 15",
+      "width": 2880,
+      "height": 1800,
+      "aspect": "16:10",
+      "tool": "https://pixohub.com/resize/wallpaper-2880x1800"
+    },
+    {
+      "id": "wallpaper-5120x2880",
+      "platform": "Desktop Wallpaper",
+      "usage": "5K",
+      "width": 5120,
+      "height": 2880,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/wallpaper-5120x2880"
+    },
+    {
+      "id": "wallpaper-7680x4320",
+      "platform": "Desktop Wallpaper",
+      "usage": "8K",
+      "width": 7680,
+      "height": 4320,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/wallpaper-7680x4320"
+    },
+    {
+      "id": "wallpaper-1024x768",
+      "platform": "Desktop Wallpaper",
+      "usage": "XGA",
+      "width": 1024,
+      "height": 768,
+      "aspect": "4:3",
+      "tool": "https://pixohub.com/resize/wallpaper-1024x768"
+    },
+    {
+      "id": "wallpaper-1536x864",
+      "platform": "Desktop Wallpaper",
+      "usage": "HD Scaled",
+      "width": 1536,
+      "height": 864,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/wallpaper-1536x864"
+    },
+    {
+      "id": "wallpaper-2256x1504",
+      "platform": "Desktop Wallpaper",
+      "usage": "Surface",
+      "width": 2256,
+      "height": 1504,
+      "aspect": "3:2",
+      "tool": "https://pixohub.com/resize/wallpaper-2256x1504"
+    },
+    {
+      "id": "wallpaper-3000x2000",
+      "platform": "Desktop Wallpaper",
+      "usage": "Surface 3:2",
+      "width": 3000,
+      "height": 2000,
+      "aspect": "3:2",
+      "tool": "https://pixohub.com/resize/wallpaper-3000x2000"
+    },
+    {
+      "id": "wallpaper-iphone-16-pro-max",
+      "platform": "Phone Wallpaper",
+      "usage": "iPhone 16 Pro Max",
+      "width": 1320,
+      "height": 2868,
+      "aspect": "9:19.5",
+      "tool": "https://pixohub.com/resize/wallpaper-iphone-16-pro-max"
+    },
+    {
+      "id": "wallpaper-iphone-15-pro-max",
+      "platform": "Phone Wallpaper",
+      "usage": "iPhone 15 Pro Max",
+      "width": 1290,
+      "height": 2796,
+      "aspect": "9:19.5",
+      "tool": "https://pixohub.com/resize/wallpaper-iphone-15-pro-max"
+    },
+    {
+      "id": "wallpaper-iphone-15",
+      "platform": "Phone Wallpaper",
+      "usage": "iPhone 15 / 14 Pro",
+      "width": 1179,
+      "height": 2556,
+      "aspect": "9:19.5",
+      "tool": "https://pixohub.com/resize/wallpaper-iphone-15"
+    },
+    {
+      "id": "wallpaper-iphone-14",
+      "platform": "Phone Wallpaper",
+      "usage": "iPhone 14 / 13",
+      "width": 1170,
+      "height": 2532,
+      "aspect": "9:19.5",
+      "tool": "https://pixohub.com/resize/wallpaper-iphone-14"
+    },
+    {
+      "id": "wallpaper-iphone-se",
+      "platform": "Phone Wallpaper",
+      "usage": "iPhone SE",
+      "width": 750,
+      "height": 1334,
+      "aspect": "9:16",
+      "tool": "https://pixohub.com/resize/wallpaper-iphone-se"
+    },
+    {
+      "id": "wallpaper-iphone-13-mini",
+      "platform": "Phone Wallpaper",
+      "usage": "iPhone 13 mini",
+      "width": 1080,
+      "height": 2340,
+      "aspect": "9:19.5",
+      "tool": "https://pixohub.com/resize/wallpaper-iphone-13-mini"
+    },
+    {
+      "id": "wallpaper-samsung-s24-ultra",
+      "platform": "Phone Wallpaper",
+      "usage": "Samsung Galaxy S24 Ultra",
+      "width": 1440,
+      "height": 3120,
+      "aspect": "9:19.5",
+      "tool": "https://pixohub.com/resize/wallpaper-samsung-s24-ultra"
+    },
+    {
+      "id": "wallpaper-samsung-s24",
+      "platform": "Phone Wallpaper",
+      "usage": "Samsung Galaxy S24",
+      "width": 1080,
+      "height": 2340,
+      "aspect": "9:19.5",
+      "tool": "https://pixohub.com/resize/wallpaper-samsung-s24"
+    },
+    {
+      "id": "wallpaper-pixel-8-pro",
+      "platform": "Phone Wallpaper",
+      "usage": "Google Pixel 8 Pro",
+      "width": 1344,
+      "height": 2992,
+      "aspect": "9:20",
+      "tool": "https://pixohub.com/resize/wallpaper-pixel-8-pro"
+    },
+    {
+      "id": "wallpaper-pixel-8",
+      "platform": "Phone Wallpaper",
+      "usage": "Google Pixel 8",
+      "width": 1080,
+      "height": 2400,
+      "aspect": "9:20",
+      "tool": "https://pixohub.com/resize/wallpaper-pixel-8"
+    },
+    {
+      "id": "wallpaper-oneplus-12",
+      "platform": "Phone Wallpaper",
+      "usage": "OnePlus 12",
+      "width": 1440,
+      "height": 3168,
+      "aspect": "9:19.8",
+      "tool": "https://pixohub.com/resize/wallpaper-oneplus-12"
+    },
+    {
+      "id": "wallpaper-xiaomi-14",
+      "platform": "Phone Wallpaper",
+      "usage": "Xiaomi 14",
+      "width": 1200,
+      "height": 2670,
+      "aspect": "9:20",
+      "tool": "https://pixohub.com/resize/wallpaper-xiaomi-14"
+    },
+    {
+      "id": "wallpaper-android-fhd",
+      "platform": "Phone Wallpaper",
+      "usage": "Android FHD (generic)",
+      "width": 1080,
+      "height": 1920,
+      "aspect": "9:16",
+      "tool": "https://pixohub.com/resize/wallpaper-android-fhd"
+    },
+    {
+      "id": "wallpaper-android-qhd",
+      "platform": "Phone Wallpaper",
+      "usage": "Android QHD (generic)",
+      "width": 1440,
+      "height": 2560,
+      "aspect": "9:16",
+      "tool": "https://pixohub.com/resize/wallpaper-android-qhd"
+    },
+    {
+      "id": "wallpaper-ipad-pro-12-9",
+      "platform": "Tablet Wallpaper",
+      "usage": "iPad Pro 12.9\"",
+      "width": 2048,
+      "height": 2732,
+      "aspect": "3:4",
+      "tool": "https://pixohub.com/resize/wallpaper-ipad-pro-12-9"
+    },
+    {
+      "id": "wallpaper-ipad-air",
+      "platform": "Tablet Wallpaper",
+      "usage": "iPad Air",
+      "width": 1640,
+      "height": 2360,
+      "aspect": "41:59",
+      "tool": "https://pixohub.com/resize/wallpaper-ipad-air"
+    },
+    {
+      "id": "wallpaper-ipad-10-9",
+      "platform": "Tablet Wallpaper",
+      "usage": "iPad 10.9\"",
+      "width": 1640,
+      "height": 2360,
+      "aspect": "41:59",
+      "tool": "https://pixohub.com/resize/wallpaper-ipad-10-9"
+    },
+    {
+      "id": "wallpaper-galaxy-tab-s9",
+      "platform": "Tablet Wallpaper",
+      "usage": "Galaxy Tab S9",
+      "width": 1600,
+      "height": 2560,
+      "aspect": "5:8",
+      "tool": "https://pixohub.com/resize/wallpaper-galaxy-tab-s9"
+    },
+    {
+      "id": "wallpaper-dual-monitor",
+      "platform": "Desktop Wallpaper",
+      "usage": "Dual Monitor 1080p",
+      "width": 3840,
+      "height": 1080,
+      "aspect": "32:9",
+      "tool": "https://pixohub.com/resize/wallpaper-dual-monitor"
+    },
+    {
+      "id": "wallpaper-triple-monitor",
+      "platform": "Desktop Wallpaper",
+      "usage": "Triple Monitor 1080p",
+      "width": 5760,
+      "height": 1080,
+      "aspect": "48:9",
+      "tool": "https://pixohub.com/resize/wallpaper-triple-monitor"
+    },
+    {
+      "id": "amazon-product",
+      "platform": "Amazon",
+      "usage": "Main Product Image",
+      "width": 2000,
+      "height": 2000,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/amazon-product"
+    },
+    {
+      "id": "amazon-product-min",
+      "platform": "Amazon",
+      "usage": "Minimum Product Image",
+      "width": 1000,
+      "height": 1000,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/amazon-product-min"
+    },
+    {
+      "id": "shopify-product",
+      "platform": "Shopify",
+      "usage": "Product Image",
+      "width": 2048,
+      "height": 2048,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/shopify-product"
+    },
+    {
+      "id": "etsy-listing",
+      "platform": "Etsy",
+      "usage": "Listing Image",
+      "width": 2000,
+      "height": 2000,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/etsy-listing"
+    },
+    {
+      "id": "etsy-cover",
+      "platform": "Etsy",
+      "usage": "Shop Cover",
+      "width": 3360,
+      "height": 840,
+      "aspect": "4:1",
+      "tool": "https://pixohub.com/resize/etsy-cover"
+    },
+    {
+      "id": "ebay-listing",
+      "platform": "eBay",
+      "usage": "Listing Photo",
+      "width": 1600,
+      "height": 1600,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/ebay-listing"
+    },
+    {
+      "id": "ebay-min",
+      "platform": "eBay",
+      "usage": "Minimum Photo",
+      "width": 500,
+      "height": 500,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/ebay-min"
+    },
+    {
+      "id": "aliexpress-product",
+      "platform": "AliExpress",
+      "usage": "Product Image",
+      "width": 800,
+      "height": 800,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/aliexpress-product"
+    },
+    {
+      "id": "walmart-product",
+      "platform": "Walmart",
+      "usage": "Product Image",
+      "width": 2200,
+      "height": 2200,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/walmart-product"
+    },
+    {
+      "id": "facebook-marketplace",
+      "platform": "Facebook Marketplace",
+      "usage": "Listing Image",
+      "width": 1200,
+      "height": 1200,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/facebook-marketplace"
+    },
+    {
+      "id": "poshmark-listing",
+      "platform": "Poshmark",
+      "usage": "Listing Photo",
+      "width": 1000,
+      "height": 1000,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/poshmark-listing"
+    },
+    {
+      "id": "redbubble-artwork",
+      "platform": "Redbubble",
+      "usage": "Artwork Upload",
+      "width": 3000,
+      "height": 3000,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/redbubble-artwork"
+    },
+    {
+      "id": "business-card-us",
+      "platform": "Print",
+      "usage": "US Business Card (3.5x2 in)",
+      "width": 1050,
+      "height": 600,
+      "aspect": "7:4",
+      "tool": "https://pixohub.com/resize/business-card-us"
+    },
+    {
+      "id": "business-card-eu",
+      "platform": "Print",
+      "usage": "EU Business Card (85x55mm)",
+      "width": 1004,
+      "height": 650,
+      "aspect": "17:11",
+      "tool": "https://pixohub.com/resize/business-card-eu"
+    },
+    {
+      "id": "a4-portrait",
+      "platform": "Print",
+      "usage": "A4 Portrait",
+      "width": 2480,
+      "height": 3508,
+      "aspect": "1:1.41",
+      "tool": "https://pixohub.com/resize/a4-portrait"
+    },
+    {
+      "id": "a4-landscape",
+      "platform": "Print",
+      "usage": "A4 Landscape",
+      "width": 3508,
+      "height": 2480,
+      "aspect": "1.41:1",
+      "tool": "https://pixohub.com/resize/a4-landscape"
+    },
+    {
+      "id": "a3-portrait",
+      "platform": "Print",
+      "usage": "A3 Portrait",
+      "width": 3508,
+      "height": 4961,
+      "aspect": "1:1.41",
+      "tool": "https://pixohub.com/resize/a3-portrait"
+    },
+    {
+      "id": "a5-portrait",
+      "platform": "Print",
+      "usage": "A5 Flyer",
+      "width": 1748,
+      "height": 2480,
+      "aspect": "1:1.41",
+      "tool": "https://pixohub.com/resize/a5-portrait"
+    },
+    {
+      "id": "us-letter",
+      "platform": "Print",
+      "usage": "US Letter",
+      "width": 2550,
+      "height": 3300,
+      "aspect": "17:22",
+      "tool": "https://pixohub.com/resize/us-letter"
+    },
+    {
+      "id": "us-legal",
+      "platform": "Print",
+      "usage": "US Legal",
+      "width": 2550,
+      "height": 4200,
+      "aspect": "17:28",
+      "tool": "https://pixohub.com/resize/us-legal"
+    },
+    {
+      "id": "photo-4x6",
+      "platform": "Print",
+      "usage": "4x6 Photo Print",
+      "width": 1200,
+      "height": 1800,
+      "aspect": "2:3",
+      "tool": "https://pixohub.com/resize/photo-4x6"
+    },
+    {
+      "id": "photo-5x7",
+      "platform": "Print",
+      "usage": "5x7 Photo Print",
+      "width": 1500,
+      "height": 2100,
+      "aspect": "5:7",
+      "tool": "https://pixohub.com/resize/photo-5x7"
+    },
+    {
+      "id": "photo-8x10",
+      "platform": "Print",
+      "usage": "8x10 Photo Print",
+      "width": 2400,
+      "height": 3000,
+      "aspect": "4:5",
+      "tool": "https://pixohub.com/resize/photo-8x10"
+    },
+    {
+      "id": "postcard",
+      "platform": "Print",
+      "usage": "Postcard (6x4 in)",
+      "width": 1875,
+      "height": 1275,
+      "aspect": "25:17",
+      "tool": "https://pixohub.com/resize/postcard"
+    },
+    {
+      "id": "poster-18x24",
+      "platform": "Print",
+      "usage": "Poster 18x24 in",
+      "width": 5400,
+      "height": 7200,
+      "aspect": "3:4",
+      "tool": "https://pixohub.com/resize/poster-18x24"
+    },
+    {
+      "id": "pinterest-long-pin",
+      "platform": "Pinterest",
+      "usage": "Long Pin",
+      "width": 1000,
+      "height": 2100,
+      "aspect": "10:21",
+      "tool": "https://pixohub.com/resize/pinterest-long-pin"
+    },
+    {
+      "id": "tiktok-photo-post",
+      "platform": "TikTok",
+      "usage": "Photo Post",
+      "width": 1080,
+      "height": 1350,
+      "aspect": "4:5",
+      "tool": "https://pixohub.com/resize/tiktok-photo-post"
+    },
+    {
+      "id": "discord-server-icon",
+      "platform": "Discord",
+      "usage": "Server Icon",
+      "width": 512,
+      "height": 512,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/discord-server-icon"
+    },
+    {
+      "id": "twitch-panel",
+      "platform": "Twitch",
+      "usage": "Channel Panel",
+      "width": 320,
+      "height": 100,
+      "aspect": "16:5",
+      "tool": "https://pixohub.com/resize/twitch-panel"
+    },
+    {
+      "id": "twitch-offline-banner",
+      "platform": "Twitch",
+      "usage": "Offline Banner",
+      "width": 1920,
+      "height": 1080,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/twitch-offline-banner"
+    },
+    {
+      "id": "reddit-post-image",
+      "platform": "Reddit",
+      "usage": "Post Image",
+      "width": 1200,
+      "height": 628,
+      "aspect": "1.91:1",
+      "tool": "https://pixohub.com/resize/reddit-post-image"
+    },
+    {
+      "id": "snapchat-geofilter",
+      "platform": "Snapchat",
+      "usage": "Geofilter",
+      "width": 1080,
+      "height": 2340,
+      "aspect": "6:13",
+      "tool": "https://pixohub.com/resize/snapchat-geofilter"
+    },
+    {
+      "id": "telegram-profile",
+      "platform": "Telegram",
+      "usage": "Profile Picture",
+      "width": 640,
+      "height": 640,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/telegram-profile"
+    },
+    {
+      "id": "threads-post",
+      "platform": "Threads",
+      "usage": "Post Image",
+      "width": 1080,
+      "height": 1350,
+      "aspect": "4:5",
+      "tool": "https://pixohub.com/resize/threads-post"
+    },
+    {
+      "id": "mastodon-header",
+      "platform": "Mastodon",
+      "usage": "Profile Header",
+      "width": 1500,
+      "height": 500,
+      "aspect": "3:1",
+      "tool": "https://pixohub.com/resize/mastodon-header"
+    },
+    {
+      "id": "bluesky-banner",
+      "platform": "Bluesky",
+      "usage": "Profile Banner",
+      "width": 3000,
+      "height": 1000,
+      "aspect": "3:1",
+      "tool": "https://pixohub.com/resize/bluesky-banner"
+    },
+    {
+      "id": "spotify-playlist-cover",
+      "platform": "Spotify",
+      "usage": "Playlist Cover",
+      "width": 640,
+      "height": 640,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/spotify-playlist-cover"
+    },
+    {
+      "id": "soundcloud-banner",
+      "platform": "SoundCloud",
+      "usage": "Profile Banner",
+      "width": 2480,
+      "height": 520,
+      "aspect": "62:13",
+      "tool": "https://pixohub.com/resize/soundcloud-banner"
+    },
+    {
+      "id": "zoom-virtual-background",
+      "platform": "Zoom",
+      "usage": "Virtual Background",
+      "width": 1920,
+      "height": 1080,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/zoom-virtual-background"
+    },
+    {
+      "id": "dribbble-shot",
+      "platform": "Dribbble",
+      "usage": "Shot",
+      "width": 1600,
+      "height": 1200,
+      "aspect": "4:3",
+      "tool": "https://pixohub.com/resize/dribbble-shot"
+    },
+    {
+      "id": "github-social-preview",
+      "platform": "GitHub",
+      "usage": "Social Preview",
+      "width": 1280,
+      "height": 640,
+      "aspect": "2:1",
+      "tool": "https://pixohub.com/resize/github-social-preview"
+    },
+    {
+      "id": "notion-cover",
+      "platform": "Notion",
+      "usage": "Page Cover",
+      "width": 1500,
+      "height": 600,
+      "aspect": "5:2",
+      "tool": "https://pixohub.com/resize/notion-cover"
+    },
+    {
+      "id": "wechat-moments",
+      "platform": "WeChat",
+      "usage": "Moments Image",
+      "width": 1080,
+      "height": 1080,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/wechat-moments"
+    },
+    {
+      "id": "kindle-cover",
+      "platform": "Amazon KDP",
+      "usage": "eBook Cover",
+      "width": 1600,
+      "height": 2560,
+      "aspect": "5:8",
+      "tool": "https://pixohub.com/resize/kindle-cover"
+    },
+    {
+      "id": "facebook-group-cover",
+      "platform": "Facebook",
+      "usage": "Group Cover",
+      "width": 1640,
+      "height": 856,
+      "aspect": "205:107",
+      "tool": "https://pixohub.com/resize/facebook-group-cover"
+    },
+    {
+      "id": "facebook-square-ad",
+      "platform": "Facebook",
+      "usage": "Square Ad",
+      "width": 1080,
+      "height": 1080,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/facebook-square-ad"
+    },
+    {
+      "id": "instagram-reels-cover",
+      "platform": "Instagram",
+      "usage": "Reels Cover",
+      "width": 1080,
+      "height": 1920,
+      "aspect": "9:16",
+      "tool": "https://pixohub.com/resize/instagram-reels-cover"
+    },
+    {
+      "id": "youtube-shorts-cover",
+      "platform": "YouTube",
+      "usage": "Shorts Cover",
+      "width": 1080,
+      "height": 1920,
+      "aspect": "9:16",
+      "tool": "https://pixohub.com/resize/youtube-shorts-cover"
+    },
+    {
+      "id": "youtube-end-screen",
+      "platform": "YouTube",
+      "usage": "End Screen",
+      "width": 1280,
+      "height": 720,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/youtube-end-screen"
+    },
+    {
+      "id": "linkedin-event-banner",
+      "platform": "LinkedIn",
+      "usage": "Event Banner",
+      "width": 1280,
+      "height": 720,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/linkedin-event-banner"
+    },
+    {
+      "id": "pinterest-video-pin",
+      "platform": "Pinterest",
+      "usage": "Video Pin",
+      "width": 1080,
+      "height": 1920,
+      "aspect": "9:16",
+      "tool": "https://pixohub.com/resize/pinterest-video-pin"
+    },
+    {
+      "id": "tiktok-in-feed-ad",
+      "platform": "TikTok",
+      "usage": "In-Feed Ad",
+      "width": 1080,
+      "height": 1920,
+      "aspect": "9:16",
+      "tool": "https://pixohub.com/resize/tiktok-in-feed-ad"
+    },
+    {
+      "id": "twitch-emote",
+      "platform": "Twitch",
+      "usage": "Emote",
+      "width": 112,
+      "height": 112,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/twitch-emote"
+    },
+    {
+      "id": "discord-custom-emoji",
+      "platform": "Discord",
+      "usage": "Custom Emoji",
+      "width": 128,
+      "height": 128,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/discord-custom-emoji"
+    },
+    {
+      "id": "vimeo-thumbnail",
+      "platform": "Vimeo",
+      "usage": "Video Thumbnail",
+      "width": 1920,
+      "height": 1080,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/vimeo-thumbnail"
+    },
+    {
+      "id": "substack-header",
+      "platform": "Substack",
+      "usage": "Newsletter Header",
+      "width": 1200,
+      "height": 600,
+      "aspect": "2:1",
+      "tool": "https://pixohub.com/resize/substack-header"
+    },
+    {
+      "id": "patreon-cover",
+      "platform": "Patreon",
+      "usage": "Cover Photo",
+      "width": 1600,
+      "height": 400,
+      "aspect": "4:1",
+      "tool": "https://pixohub.com/resize/patreon-cover"
+    },
+    {
+      "id": "behance-project-cover",
+      "platform": "Behance",
+      "usage": "Project Cover",
+      "width": 808,
+      "height": 632,
+      "aspect": "101:79",
+      "tool": "https://pixohub.com/resize/behance-project-cover"
+    },
+    {
+      "id": "wechat-article-cover",
+      "platform": "WeChat",
+      "usage": "Article Cover",
+      "width": 900,
+      "height": 383,
+      "aspect": "900:383",
+      "tool": "https://pixohub.com/resize/wechat-article-cover"
+    },
+    {
+      "id": "line-home-cover",
+      "platform": "LINE",
+      "usage": "Home Cover",
+      "width": 1080,
+      "height": 878,
+      "aspect": "540:439",
+      "tool": "https://pixohub.com/resize/line-home-cover"
+    },
+    {
+      "id": "kakaotalk-profile",
+      "platform": "KakaoTalk",
+      "usage": "Profile Picture",
+      "width": 640,
+      "height": 640,
+      "aspect": "1:1",
+      "tool": "https://pixohub.com/resize/kakaotalk-profile"
+    },
+    {
+      "id": "tumblr-banner",
+      "platform": "Tumblr",
+      "usage": "Profile Banner",
+      "width": 3000,
+      "height": 1055,
+      "aspect": "600:211",
+      "tool": "https://pixohub.com/resize/tumblr-banner"
+    },
+    {
+      "id": "quora-space-image",
+      "platform": "Quora",
+      "usage": "Space Image",
+      "width": 1280,
+      "height": 720,
+      "aspect": "16:9",
+      "tool": "https://pixohub.com/resize/quora-space-image"
+    }
+  ]
+}

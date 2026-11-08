@@ -1,0 +1,775 @@
+{
+  "tested": "2026-10-24",
+  "method": "Pixohub's compress-to-size tool (JPEG, quality search then downscale if needed) run on 20 phone photos (Wikimedia Commons) and the 24-image Kodak suite for each target. 'under' counts outputs at or below the target; med/min/max KB are output sizes; mp_kept is the share of original megapixels kept; ssim is structural similarity to the source.",
+  "corpus": {
+    "phones": [
+      {
+        "title": "Barcelos, Vila Boa e Vila Frescainha (São Martinho e São Pedro) - Igreja de Nossa Senhora do Terço 01.jpeg",
+        "page": "https://commons.wikimedia.org/wiki/File:Barcelos,_Vila_Boa_e_Vila_Frescainha_(S%C3%A3o_Martinho_e_S%C3%A3o_Pedro)_-_Igreja_de_Nossa_Senhora_do_Ter%C3%A7o_01.jpeg",
+        "license": "CC BY-SA 4.0",
+        "author": "GiovanniPen",
+        "width": 3024,
+        "height": 4032
+      },
+      {
+        "title": "Bloki na ulicy Goszczynskiego Sosnowiec Środula 02.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Bloki_na_ulicy_Goszczynskiego_Sosnowiec_%C5%9Arodula_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Krzysztof Popławski",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "title": "Boston Basilica interior 02.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Boston_Basilica_interior_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Farragutful",
+        "width": 5425,
+        "height": 4063
+      },
+      {
+        "title": "-i---i- (54245759081).jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:-i---i-_(54245759081).jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "メイド理世",
+        "width": 3024,
+        "height": 4032
+      },
+      {
+        "title": "Carinda Roman Catholic Church 09-08-2024.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Carinda_Roman_Catholic_Church_09-08-2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Mattinbgn",
+        "width": 3530,
+        "height": 2667
+      },
+      {
+        "title": "China Merchants Bank Building in Shanghai at night 02.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:China_Merchants_Bank_Building_in_Shanghai_at_night_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "北纬的星空",
+        "width": 3024,
+        "height": 4032
+      },
+      {
+        "title": "8787 Georgia Avenue 09.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:8787_Georgia_Avenue_09.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Farragutful",
+        "width": 5074,
+        "height": 3781
+      },
+      {
+        "title": "-i---i- (51970200648).jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:-i---i-_(51970200648).jpg",
+        "license": "CC BY 2.0",
+        "author": "Carlos Pacheco from Toronto, Canada",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "title": "20230807 145136 August 2023 in Białystok.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:20230807_145136_August_2023_in_Bia%C5%82ystok.jpg",
+        "license": "CC0",
+        "author": "Rakoon",
+        "width": 3024,
+        "height": 4032
+      },
+      {
+        "title": "'One Old Road' (1 Old Road) with windows and a high brick wall, viewed from Old Road in Chatham, Kent.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:%27One_Old_Road%27_(1_Old_Road)_with_windows_and_a_high_brick_wall,_viewed_from_Old_Road_in_Chatham,_Kent.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "OathOn",
+        "width": 4588,
+        "height": 3347
+      },
+      {
+        "title": "Moscow 2025-11-20 05.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Moscow_2025-11-20_05.jpg",
+        "license": "CC0",
+        "author": "Perituss",
+        "width": 8064,
+        "height": 6048
+      },
+      {
+        "title": "Parks Mall at Arlington Atrium (2024).jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Parks_Mall_at_Arlington_Atrium_(2024).jpg",
+        "license": "CC BY 4.0",
+        "author": "Chew",
+        "width": 5712,
+        "height": 4284
+      },
+      {
+        "title": "BorNE.DOMB-LEPA.v-02.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:BorNE.DOMB-LEPA.v-02.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Clwacker",
+        "width": 2268,
+        "height": 4032
+      },
+      {
+        "title": "20230806 191612 August 2023 in Białystok.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:20230806_191612_August_2023_in_Bia%C5%82ystok.jpg",
+        "license": "CC0",
+        "author": "Rakoon",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "title": "Caltabellotta - Chiesa di San Pellegrino - 2025-08-29 ruins.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Caltabellotta_-_Chiesa_di_San_Pellegrino_-_2025-08-29_ruins.JPG",
+        "license": "CC BY-SA 4.0",
+        "author": "GiovanniPen",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "title": "Operação Lais de Guia GLO 2023 (53316687826).jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Opera%C3%A7%C3%A3o_Lais_de_Guia_GLO_2023_(53316687826).jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Marinha do Brasil",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "title": "Aulangon näkötorni heinäkuussa 2023.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Aulangon_n%C3%A4k%C3%B6torni_hein%C3%A4kuussa_2023.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Jukka Aminoff",
+        "width": 2268,
+        "height": 4032
+      },
+      {
+        "title": "Buca metrosu temel atma töreni 02.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Buca_metrosu_temel_atma_t%C3%B6reni_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "BSRF",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "title": "39 Harleyford Road.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:39_Harleyford_Road.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Secretlondon",
+        "width": 3024,
+        "height": 4032
+      },
+      {
+        "title": "Atlas apartment high-rise (Vuotie 47 B, Vuosaari, Helsinki, Finland) Mar 28, 2026.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Atlas_apartment_high-rise_(Vuotie_47_B,_Vuosaari,_Helsinki,_Finland)_Mar_28,_2026.jpg",
+        "license": "CC BY 4.0",
+        "author": "Lasse Keskinen",
+        "width": 3731,
+        "height": 6636
+      }
+    ],
+    "kodak": {
+      "name": "Kodak Lossless True Color Image Suite",
+      "count": 24,
+      "width": 768,
+      "height": 512,
+      "url": "https://r0k.us/graphics/kodak/"
+    }
+  },
+  "targets": [
+    {
+      "target_kb": 10,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 9.9,
+        "min_kb": 9.8,
+        "max_kb": 10,
+        "median_width": 270,
+        "median_mp_kept": 0.0052,
+        "median_ssim": 0.572,
+        "median_ms": 2414
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 9.9,
+        "min_kb": 9.8,
+        "max_kb": 10,
+        "median_width": 304,
+        "median_mp_kept": 0.185,
+        "median_ssim": 0.747,
+        "median_ms": 956
+      },
+      "tool": "https://pixohub.com/compress-image-to-10kb"
+    },
+    {
+      "target_kb": 20,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 19.8,
+        "min_kb": 19.6,
+        "max_kb": 20,
+        "median_width": 406.5,
+        "median_mp_kept": 0.0116,
+        "median_ssim": 0.653,
+        "median_ms": 2458
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 19.9,
+        "min_kb": 19.7,
+        "max_kb": 20,
+        "median_width": 459.5,
+        "median_mp_kept": 0.427,
+        "median_ssim": 0.841,
+        "median_ms": 951
+      },
+      "tool": "https://pixohub.com/compress-image-to-20kb"
+    },
+    {
+      "target_kb": 25,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 24.9,
+        "min_kb": 24.6,
+        "max_kb": 25,
+        "median_width": 464.5,
+        "median_mp_kept": 0.0146,
+        "median_ssim": 0.684,
+        "median_ms": 2344
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 24.8,
+        "min_kb": 24.6,
+        "max_kb": 25,
+        "median_width": 513.5,
+        "median_mp_kept": 0.5427,
+        "median_ssim": 0.865,
+        "median_ms": 955
+      },
+      "tool": "https://pixohub.com/compress-image-to-25kb"
+    },
+    {
+      "target_kb": 30,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 29.7,
+        "min_kb": 29.4,
+        "max_kb": 30,
+        "median_width": 511,
+        "median_mp_kept": 0.0176,
+        "median_ssim": 0.71,
+        "median_ms": 2304
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 29.8,
+        "min_kb": 29.5,
+        "max_kb": 30,
+        "median_width": 562.5,
+        "median_mp_kept": 0.7007,
+        "median_ssim": 0.883,
+        "median_ms": 946
+      },
+      "tool": "https://pixohub.com/compress-image-to-30kb"
+    },
+    {
+      "target_kb": 40,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 39.7,
+        "min_kb": 39.3,
+        "max_kb": 40,
+        "median_width": 594,
+        "median_mp_kept": 0.024,
+        "median_ssim": 0.75,
+        "median_ms": 2336
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 39.7,
+        "min_kb": 39.4,
+        "max_kb": 40,
+        "median_width": 650,
+        "median_mp_kept": 0.9051,
+        "median_ssim": 0.911,
+        "median_ms": 946
+      },
+      "tool": "https://pixohub.com/compress-image-to-40kb"
+    },
+    {
+      "target_kb": 50,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 49.6,
+        "min_kb": 49.2,
+        "max_kb": 50,
+        "median_width": 668.5,
+        "median_mp_kept": 0.0303,
+        "median_ssim": 0.783,
+        "median_ms": 2344
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 49.5,
+        "min_kb": 48.3,
+        "max_kb": 50,
+        "median_width": 729.5,
+        "median_mp_kept": 1,
+        "median_ssim": 0.93,
+        "median_ms": 953
+      },
+      "tool": "https://pixohub.com/compress-image-to-50kb"
+    },
+    {
+      "target_kb": 75,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 74.1,
+        "min_kb": 73.4,
+        "max_kb": 74.9,
+        "median_width": 834,
+        "median_mp_kept": 0.047,
+        "median_ssim": 0.841,
+        "median_ms": 2408
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 73.9,
+        "min_kb": 71,
+        "max_kb": 74.9,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.954,
+        "median_ms": 954
+      },
+      "tool": "https://pixohub.com/compress-image-to-75kb"
+    },
+    {
+      "target_kb": 100,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 99.1,
+        "min_kb": 98.3,
+        "max_kb": 99.9,
+        "median_width": 978,
+        "median_mp_kept": 0.0635,
+        "median_ssim": 0.88,
+        "median_ms": 2379
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 98.2,
+        "min_kb": 93.9,
+        "max_kb": 99.9,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.968,
+        "median_ms": 950
+      },
+      "tool": "https://pixohub.com/compress-image-to-100kb"
+    },
+    {
+      "target_kb": 120,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 119.2,
+        "min_kb": 118,
+        "max_kb": 119.9,
+        "median_width": 1078.5,
+        "median_mp_kept": 0.0769,
+        "median_ssim": 0.901,
+        "median_ms": 2402
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 116.6,
+        "min_kb": 111.4,
+        "max_kb": 119.6,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.976,
+        "median_ms": 956
+      },
+      "tool": "https://pixohub.com/compress-image-to-120kb"
+    },
+    {
+      "target_kb": 150,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 148.9,
+        "min_kb": 146.9,
+        "max_kb": 149.8,
+        "median_width": 1220,
+        "median_mp_kept": 0.0977,
+        "median_ssim": 0.925,
+        "median_ms": 2439
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 143.9,
+        "min_kb": 115.3,
+        "max_kb": 149,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.983,
+        "median_ms": 957
+      },
+      "tool": "https://pixohub.com/compress-image-to-150kb"
+    },
+    {
+      "target_kb": 200,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 198.4,
+        "min_kb": 196.5,
+        "max_kb": 199.8,
+        "median_width": 1422.5,
+        "median_mp_kept": 0.1336,
+        "median_ssim": 0.95,
+        "median_ms": 2566
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 155.9,
+        "min_kb": 115.3,
+        "max_kb": 199.4,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.986,
+        "median_ms": 948
+      },
+      "tool": "https://pixohub.com/compress-image-to-200kb"
+    },
+    {
+      "target_kb": 250,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 248.7,
+        "min_kb": 246.4,
+        "max_kb": 249.9,
+        "median_width": 1608.5,
+        "median_mp_kept": 0.1683,
+        "median_ssim": 0.967,
+        "median_ms": 2680
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 155.9,
+        "min_kb": 115.3,
+        "max_kb": 246.7,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.987,
+        "median_ms": 944
+      },
+      "tool": "https://pixohub.com/compress-image-to-250kb"
+    },
+    {
+      "target_kb": 300,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 298,
+        "min_kb": 295.6,
+        "max_kb": 299.9,
+        "median_width": 1777.5,
+        "median_mp_kept": 0.2019,
+        "median_ssim": 0.975,
+        "median_ms": 2776
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 155.9,
+        "min_kb": 115.3,
+        "max_kb": 246.7,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.987,
+        "median_ms": 947
+      },
+      "tool": "https://pixohub.com/compress-image-to-300kb"
+    },
+    {
+      "target_kb": 400,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 398.2,
+        "min_kb": 390.9,
+        "max_kb": 399.8,
+        "median_width": 2103,
+        "median_mp_kept": 0.2699,
+        "median_ssim": 0.984,
+        "median_ms": 2838
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 155.9,
+        "min_kb": 115.3,
+        "max_kb": 246.7,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.987,
+        "median_ms": 972
+      },
+      "tool": "https://pixohub.com/compress-image-to-400kb"
+    },
+    {
+      "target_kb": 500,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 495.6,
+        "min_kb": 485.1,
+        "max_kb": 499.9,
+        "median_width": 2360,
+        "median_mp_kept": 0.3792,
+        "median_ssim": 0.988,
+        "median_ms": 2904
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 155.9,
+        "min_kb": 115.3,
+        "max_kb": 246.7,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.987,
+        "median_ms": 962
+      },
+      "tool": "https://pixohub.com/compress-image-to-500kb"
+    },
+    {
+      "target_kb": 600,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 596.5,
+        "min_kb": 590,
+        "max_kb": 599.7,
+        "median_width": 2585,
+        "median_mp_kept": 0.4565,
+        "median_ssim": 0.99,
+        "median_ms": 2792
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 155.9,
+        "min_kb": 115.3,
+        "max_kb": 246.7,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.987,
+        "median_ms": 970
+      },
+      "tool": "https://pixohub.com/compress-image-to-600kb"
+    },
+    {
+      "target_kb": 750,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 742,
+        "min_kb": 715.4,
+        "max_kb": 749.1,
+        "median_width": 2899.5,
+        "median_mp_kept": 0.5705,
+        "median_ssim": 0.992,
+        "median_ms": 2796
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 155.9,
+        "min_kb": 115.3,
+        "max_kb": 246.7,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.987,
+        "median_ms": 972
+      },
+      "tool": "https://pixohub.com/compress-image-to-750kb"
+    },
+    {
+      "target_kb": 800,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 794.6,
+        "min_kb": 776.4,
+        "max_kb": 799.9,
+        "median_width": 3024,
+        "median_mp_kept": 0.6085,
+        "median_ssim": 0.993,
+        "median_ms": 2713
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 155.9,
+        "min_kb": 115.3,
+        "max_kb": 246.7,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.987,
+        "median_ms": 953
+      },
+      "tool": "https://pixohub.com/compress-image-to-800kb"
+    },
+    {
+      "target_kb": 1024,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 993.7,
+        "min_kb": 907.2,
+        "max_kb": 999.7,
+        "median_width": 3166.5,
+        "median_mp_kept": 0.7145,
+        "median_ssim": 0.994,
+        "median_ms": 2497
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 155.9,
+        "min_kb": 115.3,
+        "max_kb": 246.7,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.987,
+        "median_ms": 966
+      },
+      "tool": "https://pixohub.com/compress-image-to-1mb"
+    },
+    {
+      "target_kb": 1536,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 1483.8,
+        "min_kb": 1383.5,
+        "max_kb": 1495.9,
+        "median_width": 3804.5,
+        "median_mp_kept": 1,
+        "median_ssim": 0.997,
+        "median_ms": 2345
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 155.9,
+        "min_kb": 115.3,
+        "max_kb": 246.7,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.987,
+        "median_ms": 956
+      },
+      "tool": "https://pixohub.com/compress-image-to-1-5mb"
+    },
+    {
+      "target_kb": 2048,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 1974.6,
+        "min_kb": 1383.5,
+        "max_kb": 1996.6,
+        "median_width": 4032,
+        "median_mp_kept": 1,
+        "median_ssim": 0.998,
+        "median_ms": 2181
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 155.9,
+        "min_kb": 115.3,
+        "max_kb": 246.7,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.987,
+        "median_ms": 962
+      },
+      "tool": "https://pixohub.com/compress-image-to-2mb"
+    },
+    {
+      "target_kb": 3072,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 2904.9,
+        "min_kb": 1383.5,
+        "max_kb": 2998,
+        "median_width": 4032,
+        "median_mp_kept": 1,
+        "median_ssim": 0.999,
+        "median_ms": 2228
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 155.9,
+        "min_kb": 115.3,
+        "max_kb": 246.7,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.987,
+        "median_ms": 970
+      },
+      "tool": "https://pixohub.com/compress-image-to-3mb"
+    },
+    {
+      "target_kb": 5120,
+      "phone_photos": {
+        "n": 20,
+        "under_target": 20,
+        "median_kb": 4017.9,
+        "min_kb": 1383.5,
+        "max_kb": 4996.3,
+        "median_width": 4032,
+        "median_mp_kept": 1,
+        "median_ssim": 1,
+        "median_ms": 1716
+      },
+      "kodak": {
+        "n": 24,
+        "under_target": 24,
+        "median_kb": 155.9,
+        "min_kb": 115.3,
+        "max_kb": 246.7,
+        "median_width": 768,
+        "median_mp_kept": 1,
+        "median_ssim": 0.987,
+        "median_ms": 962
+      },
+      "tool": "https://pixohub.com/compress-image-to-5mb"
+    }
+  ]
+}
