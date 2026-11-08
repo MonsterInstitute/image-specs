@@ -66,11 +66,11 @@ print([l for l in data["items"] if "Gmail" in l["organization"]])
 The same data is queryable by AI assistants through a free, read-only [MCP](https://modelcontextprotocol.io) server (Streamable HTTP, no key):
 
 ```
-https://pixohub-mcp.hello-975.workers.dev/mcp
+https://mcp.pixohub.com/mcp
 ```
 
 ```bash
-claude mcp add --transport http pixohub https://pixohub-mcp.hello-975.workers.dev/mcp
+claude mcp add --transport http pixohub https://mcp.pixohub.com/mcp
 ```
 
 Tools: `get_platform_image_size`, `find_upload_size_limit`, `recommend_image_format`, `compression_advice`, `conversion_test_result`.
