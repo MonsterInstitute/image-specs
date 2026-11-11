@@ -63,6 +63,8 @@ print([l for l in data["items"] if "Gmail" in l["organization"]])
 
 ## MCP server
 
+[![Pixohub image specs MCP server](https://mcprush.com/badge/pixohub-image-specs-mcp/card.svg)](https://mcprush.com/to/pixohub-image-specs-mcp?ref=badge)
+
 The same data is queryable by AI assistants through a free, read-only [MCP](https://modelcontextprotocol.io) server (Streamable HTTP, no key):
 
 ```
